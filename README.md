@@ -36,6 +36,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) - :watch: Ansible role for Nomad
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) - Reusable Terraform modules
+- [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
 - [hashicorp/terraform-provider-nomad](https://github.com/hashicorp/terraform-provider-nomad) - Terraform Nomad provider
 - [input-output-hk/bitte](https://github.com/input-output-hk/bitte) - Nix Ops for Terraform, Consul, Vault, Nomad
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
@@ -48,7 +49,6 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
-- [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
 - [jvirtanen/vim-hcl](https://github.com/jvirtanen/vim-hcl) - Syntax highlighting for HashiCorp Configuration Language (HCL)
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
 
