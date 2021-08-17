@@ -51,6 +51,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
+- [hashicorp/damon](https://github.com/hashicorp/damon) - A terminal UI (TUI) for HashiCorp Nomad
 - [jvirtanen/vim-hcl](https://github.com/jvirtanen/vim-hcl) - Syntax highlighting for HashiCorp Configuration Language (HCL)
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
 
