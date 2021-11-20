@@ -24,6 +24,7 @@ Pull requests with additional tools and projects are more than welcome!
 ## Provisioning
 
 - [hashicorp/terraform-aws-nomad](https://github.com/hashicorp/terraform-aws-nomad) - A Terraform Module for how to run Nomad on AWS using Terraform and Packer
+- [hashicorp/terraform-google-nomad](https://github.com/hashicorp/terraform-google-nomad) - A Terraform Module for how to run Nomad on Google Cloud using Terraform and Packer
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH < 1 minute
 - [numkem/nomad-spk](https://github.com/numkem/nomad-spk) - spk (Synology package) to install Hashicorp's nomad scheduler into Synology NAS
 
@@ -80,3 +81,4 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [hashicorp/nomad-java-sdk](https://github.com/hashicorp/nomad-java-sdk) - A Java SDK for interfacing with HashiCorp's Nomad
 - [jrxFive/python-nomad](https://github.com/jrxFive/python-nomad) - Client library Hashicorp Nomad
+- [bbopt/NOMAD.jl](https://github.com/bbopt/NOMAD.jl) - Julia interface to the NOMAD blackbox optimization software
