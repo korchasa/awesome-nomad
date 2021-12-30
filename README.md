@@ -12,6 +12,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [cyriltovena/observability-nomad](https://github.com/cyriltovena/observability-nomad) - This is a set of examples on how to add Observability to Nomad Applications
 - [GuyBarros/nomad_jobs](https://github.com/GuyBarros/nomad_jobs) - A collection of Nomad Jobds to run as part of the meanstack-consul-connect demo
 - [hashicorp/field-workshops-nomad](https://github.com/hashicorp/field-workshops-nomad) - Slides, Instructor Guides and Instruqt Tracks for Nomad Field Workshops
+- [hashicorp/nomad-autoscaler-demos](https://github.com/hashicorp/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
 - [hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides) - Example usage of HashiCorp Nomad
 - [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) - A curated list of amazingly awesome Nomad tools and shiny things.
 - [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
