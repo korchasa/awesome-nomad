@@ -10,6 +10,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [angrycub/nomad_example_jobs](https://github.com/angrycub/nomad_example_jobs) - Jobs and resources that I have used to experiment with Nomad
 - [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) - A tutorial on how to get Envoy running on Nomad and using Envoy's SDS(Service Discovery Service) to access Consul API.
 - [cyriltovena/observability-nomad](https://github.com/cyriltovena/observability-nomad) - This is a set of examples on how to add Observability to Nomad Applications
+- [efbar/hashicorp-labs](https://github.com/efbar/hashicorp-labs) - Deploy locally on VM an Hashicorp cluster formed by Vault, Consul and Nomad. Ready for deploying and testing your apps.
 - [GuyBarros/nomad_jobs](https://github.com/GuyBarros/nomad_jobs) - A collection of Nomad Jobds to run as part of the meanstack-consul-connect demo
 - [hashicorp/field-workshops-nomad](https://github.com/hashicorp/field-workshops-nomad) - Slides, Instructor Guides and Instruqt Tracks for Nomad Field Workshops
 - [hashicorp/nomad-autoscaler-demos](https://github.com/hashicorp/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
