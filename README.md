@@ -20,6 +20,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [kelseyhightower/hashiconf-eu-2016](https://github.com/kelseyhightower/hashiconf-eu-2016) - Repo from a talk on building out a deployment with GCE/Consul/Nomad/Fabio loadbalancer. Check out the talk on youtube: <https://www.youtube.com/watch?v=Nosa5-xcATw>
 - [microservices-demo/microservices-demo.github.io](https://github.com/microservices-demo/microservices-demo.github.io) - The Microservices Demo website.
 - [mr-karan/hydra](https://github.com/mr-karan/hydra) - Infra-as-code for my personal home server setup
+- [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
 - [perrymanuk/hashi-homelab](https://github.com/perrymanuk/hashi-homelab) Job files for a small lightweight homelab based on nomad and consul from hashicorp.
 - [pete0emerson/hashipoc](https://github.com/pete0emerson/hashipoc) - A Vagrant driven example of getting Consul / Vault / Nomad up and running with a sample app deployed
 
