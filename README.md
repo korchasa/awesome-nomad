@@ -43,10 +43,11 @@ Pull requests with additional tools and projects are more than welcome!
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) - :watch: Ansible role for Nomad
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) - Reusable Terraform modules
 - [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
-- [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - Nomad Pack is a templating and packaging tool used with HashiCorp Nomad.
 - [hashicorp/nomad-pack-community-registry](https://github.com/hashicorp/nomad-pack-community-registry) - A repo for Packs written and maintained by Nomad community members
+- [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - Nomad Pack is a templating and packaging tool used with HashiCorp Nomad.
 - [hashicorp/terraform-provider-nomad](https://github.com/hashicorp/terraform-provider-nomad) - Terraform Nomad provider
 - [input-output-hk/bitte](https://github.com/input-output-hk/bitte) - Nix Ops for Terraform, Consul, Vault, Nomad
+- [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A Nomad task driver for systemd-nspawn
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
 - [picatz/terraform-google-nomad](https://github.com/picatz/terraform-google-nomad) - 📗 Terraform Module for Nomad clusters on GCP
 - [seatgeek/nomad-firehose](https://github.com/seatgeek/nomad-firehose) - Go binary that "tails" API endpoints and emit messages for each changed resource to RabbitMQ, AWS kinesis or stdout.
