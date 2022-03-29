@@ -28,6 +28,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [hashicorp/terraform-aws-nomad](https://github.com/hashicorp/terraform-aws-nomad) - A Terraform Module for how to run Nomad on AWS using Terraform and Packer
 - [hashicorp/terraform-google-nomad](https://github.com/hashicorp/terraform-google-nomad) - A Terraform Module for how to run Nomad on Google Cloud using Terraform and Packer
+- [jboero/nomados](https://github.com/jboero/nomados) - An experiment after Hashiconf Digital 2020 for building a minimal Linux Nomad agent.
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH < 1 minute
 - [numkem/nomad-spk](https://github.com/numkem/nomad-spk) - spk (Synology package) to install Hashicorp's nomad scheduler into Synology NAS
 
@@ -60,6 +61,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
 - [hashicorp/damon](https://github.com/hashicorp/damon) - A terminal UI (TUI) for HashiCorp Nomad
 - [jvirtanen/vim-hcl](https://github.com/jvirtanen/vim-hcl) - Syntax highlighting for HashiCorp Configuration Language (HCL)
+- [multani/docker-nomad](https://github.com/multani/docker-nomad) - Nomad running in Docker
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
 
 ## CI / CD
@@ -74,12 +76,12 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Plugins
 
+- [bsdpot/nomad-pot-driver](https://github.com/bsdpot/nomad-pot-driver) - Nomad task driver for launching freebsd jails.
 - [cneira/firecracker-task-driver](https://github.com/cneira/firecracker-task-driver) - nomad task driver that uses firecracker to start micro-vms
 - [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) - Task driver that uses FreeBSD jails
 - [pascomnet/nomad-driver-podman](https://github.com/pascomnet/nomad-driver-podman) - A nomad task driver for [podman containers](https://podman.io)
 - [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - Nomad task driver for running windows IIS services.
-- [trivago/nomad-pot-driver](https://github.com/trivago/nomad-pot-driver) - Plugin for managing FreeBSD Jails with Hashicorp's Nomad
 
 ## SDK
 
