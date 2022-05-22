@@ -26,6 +26,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Provisioning
 
+- [aws-quickstart/quickstart-hashicorp-nomad](https://github.com/aws-quickstart/quickstart-hashicorp-nomad) - AWS Quick Start Team
 - [hashicorp/terraform-aws-nomad](https://github.com/hashicorp/terraform-aws-nomad) - A Terraform Module for how to run Nomad on AWS using Terraform and Packer
 - [hashicorp/terraform-google-nomad](https://github.com/hashicorp/terraform-google-nomad) - A Terraform Module for how to run Nomad on Google Cloud using Terraform and Packer
 - [jboero/nomados](https://github.com/jboero/nomados) - An experiment after Hashiconf Digital 2020 for building a minimal Linux Nomad agent.
@@ -44,6 +45,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) - :watch: Ansible role for Nomad
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) - Reusable Terraform modules
 - [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
+- [hashicorp/nomad-openapi](https://github.com/hashicorp/nomad-openapi) - OpenAPI specification and related artifacts for HashiCorp Nomad
 - [hashicorp/nomad-pack-community-registry](https://github.com/hashicorp/nomad-pack-community-registry) - A repo for Packs written and maintained by Nomad community members
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - Nomad Pack is a templating and packaging tool used with HashiCorp Nomad.
 - [hashicorp/terraform-provider-nomad](https://github.com/hashicorp/terraform-provider-nomad) - Terraform Nomad provider
