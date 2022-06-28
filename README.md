@@ -53,6 +53,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A Nomad task driver for systemd-nspawn
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
 - [picatz/terraform-google-nomad](https://github.com/picatz/terraform-google-nomad) - 📗 Terraform Module for Nomad clusters on GCP
+- [robinovitch61/wander](https://github.com/robinovitch61/wander) - A terminal application for Nomad by HashiCorp
+- [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - NNPD - nomad-node-problem-detector
 - [seatgeek/nomad-firehose](https://github.com/seatgeek/nomad-firehose) - Go binary that "tails" API endpoints and emit messages for each changed resource to RabbitMQ, AWS kinesis or stdout.
 - [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Simple helper binary to allow you to reevaluate all jobs, drain an node (and wait for all allocations to stop), force a garbage collection, export / import job task group counts in YAML format.
 - [sepulworld/deadman-check](https://github.com/sepulworld/deadman-check) - A monitoring companion for Nomad periodic jobs that alerts if periodic isn't running at the expected interval.
