@@ -9,6 +9,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [aldoborrero/hashi-homelab](https://github.com/aldoborrero/hashi-homelab) - Hashicorp Homelab is a collection of nomad recipes related to several Open Source projects that I use on my own nomad + consul + vault + Intel Nuc cluster.
 - [angrycub/nomad_example_jobs](https://github.com/angrycub/nomad_example_jobs) - Jobs and resources that I have used to experiment with Nomad
 - [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) - A tutorial on how to get Envoy running on Nomad and using Envoy's SDS(Service Discovery Service) to access Consul API.
+- [assareh/home-lab](https://github.com/assareh/home-lab) - My home lab infrastructure with Nomad, Consul, and Vault
 - [cyriltovena/observability-nomad](https://github.com/cyriltovena/observability-nomad) - This is a set of examples on how to add Observability to Nomad Applications
 - [efbar/hashicorp-labs](https://github.com/efbar/hashicorp-labs) - Deploy locally on VM an Hashicorp cluster formed by Vault, Consul and Nomad. Ready for deploying and testing your apps.
 - [GuyBarros/nomad_jobs](https://github.com/GuyBarros/nomad_jobs) - A collection of Nomad Jobds to run as part of the meanstack-consul-connect demo
@@ -65,6 +66,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
 - [hashicorp/damon](https://github.com/hashicorp/damon) - A terminal UI (TUI) for HashiCorp Nomad
 - [jvirtanen/vim-hcl](https://github.com/jvirtanen/vim-hcl) - Syntax highlighting for HashiCorp Configuration Language (HCL)
+- [mattolenik/hclq](https://github.com/mattolenik/hclq) - Command-line processor for HashiCorp config files, like sed for HCL — Terraform, Consul, Nomad, Vault
 - [multani/docker-nomad](https://github.com/multani/docker-nomad) - Nomad running in Docker
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
 
