@@ -13,6 +13,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [cyriltovena/observability-nomad](https://github.com/cyriltovena/observability-nomad) - This is a set of examples on how to add Observability to Nomad Applications
 - [efbar/hashicorp-labs](https://github.com/efbar/hashicorp-labs) - Deploy locally on VM an Hashicorp cluster formed by Vault, Consul and Nomad. Ready for deploying and testing your apps.
 - [GuyBarros/nomad_jobs](https://github.com/GuyBarros/nomad_jobs) - A collection of Nomad Jobds to run as part of the meanstack-consul-connect demo
+- [hashicorp/c1m](https://github.com/hashicorp/c1m) - Nomad, Terraform, and Packer configurations for the Million Container Challenge (C1M)
+- [hashicorp/c2m](https://github.com/hashicorp/c2m) - Nomad, Terraform, and Packer configurations for the 2 Million Container Challenge (C2M)
 - [hashicorp/field-workshops-nomad](https://github.com/hashicorp/field-workshops-nomad) - Slides, Instructor Guides and Instruqt Tracks for Nomad Field Workshops
 - [hashicorp/nomad-autoscaler-demos](https://github.com/hashicorp/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
 - [hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides) - Example usage of HashiCorp Nomad
@@ -33,6 +35,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [jboero/nomados](https://github.com/jboero/nomados) - An experiment after Hashiconf Digital 2020 for building a minimal Linux Nomad agent.
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - bootstrap HashiCorp Consul, Nomad, or Vault over SSH < 1 minute
 - [numkem/nomad-spk](https://github.com/numkem/nomad-spk) - spk (Synology package) to install Hashicorp's nomad scheduler into Synology NAS
+- [nunchistudio/hashibox](https://github.com/nunchistudio/hashibox) - Vagrant environment to simulate a highly-available Cloud with Consul, Nomad, and Vault. OSS & Enterprise versions supported. Optional support for Waypoint.
 
 ## System jobs
 
@@ -46,6 +49,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) - :watch: Ansible role for Nomad
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) - Reusable Terraform modules
 - [fhemberger/nomad-demo](https://github.com/fhemberger/nomad-demo) - Vagrant based demo setup for running Hashicorp Nomad
+- [hashicorp/hcdiag](https://github.com/hashicorp/hcdiag) - hcdiag is a CLI utility that collects and bundles product and platform diagnostics. It supports Consul, Nomad, TFE, and Vault.
+- [hashicorp/nomad-driver-ecs](https://github.com/hashicorp/nomad-driver-ecs) - EXPERIMENTAL Amazon AWS ECS Task Driver Plugin for HashiCorp Nomad
 - [hashicorp/nomad-openapi](https://github.com/hashicorp/nomad-openapi) - OpenAPI specification and related artifacts for HashiCorp Nomad
 - [hashicorp/nomad-pack-community-registry](https://github.com/hashicorp/nomad-pack-community-registry) - A repo for Packs written and maintained by Nomad community members
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - Nomad Pack is a templating and packaging tool used with HashiCorp Nomad.
@@ -78,6 +83,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [hashicorp/levant](https://github.com/hashicorp/levant) - An open source templating and deployment tool for HashiCorp Nomad jobs
 - [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves.
 - [screwdrivercd/nomad](http://screwdriver.cd/) - Use nomad to schedule and execute workflows triggered by an scm (github/bitbucket).
+- [tristanpemble/nix-nomad](https://github.com/tristanpemble/nix-nomad) - HashiCorp Nomad job definitions in Nix
 - [ValFadeev/rundeck-nomad-plugin](https://github.com/ValFadeev/rundeck-nomad-plugin) - A Rundeck plugin for authoring and running Nomad jobs by operators or in automated deployment pipelines.
 
 ## Plugins
