@@ -18,6 +18,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [hashicorp/field-workshops-nomad](https://github.com/hashicorp/field-workshops-nomad) - Slides, Instructor Guides and Instruqt Tracks for Nomad Field Workshops
 - [hashicorp/nomad-autoscaler-demos](https://github.com/hashicorp/nomad-autoscaler-demos) - A set of demos for the Nomad Autoscaler (https://github.com/hashicorp/nomad-autoscaler)
 - [hashicorp/nomad-guides](https://github.com/hashicorp/nomad-guides) - Example usage of HashiCorp Nomad
+- [hashicorp/nomad-open-telemetry-getting-started](https://github.com/hashicorp/nomad-open-telemetry-getting-started) - OpenTelemetry getting started guides on Nomad
 - [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) - A curated list of amazingly awesome Nomad tools and shiny things.
 - [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
 - [kelseyhightower/hashiconf-eu-2016](https://github.com/kelseyhightower/hashiconf-eu-2016) - Repo from a talk on building out a deployment with GCE/Consul/Nomad/Fabio loadbalancer. Check out the talk on youtube: <https://www.youtube.com/watch?v=Nosa5-xcATw>
@@ -26,6 +27,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [natelandau/ansible-homelab-config](https://github.com/natelandau/ansible-homelab-config) - Ansible scripts to configure my homelab using Consul, Nomad, Docker, Traefik, and more...
 - [perrymanuk/hashi-homelab](https://github.com/perrymanuk/hashi-homelab) Job files for a small lightweight homelab based on nomad and consul from hashicorp.
 - [pete0emerson/hashipoc](https://github.com/pete0emerson/hashipoc) - A Vagrant driven example of getting Consul / Vault / Nomad up and running with a sample app deployed
+- [thangchung/coffeeshop-on-nomad](https://github.com/thangchung/coffeeshop-on-nomad) - The .NET coffeeshop application runs on Docker, Nomad and Consul Connect
+- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) - ☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment
 
 ## Provisioning
 
