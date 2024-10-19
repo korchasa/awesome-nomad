@@ -1,0 +1,827 @@
+updated_at: 0001-01-01T00:00:00Z
+items:
+    - name: istio/istio
+      link: https://github.com/istio/istio
+      description: Istio is an open source service mesh that layers transparently onto existing distributed applications, providing uniform methods for securing, connecting, and monitoring services. Its powerful features facilitate load balancing and service-to-service authentication without significant service code changes. The project includes detailed documentation for deployment and community participation while exposing necessary APIs and configurations for Istio. Additionally, various components, such as Envoy proxies and the Istiod control plane, are part of the overall architecture to enhance microservice interactions.
+      summary: Istio is an open source service mesh that connects, secures, controls, and observes services.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is centered around providing extensive documentation and articles about the Istio service mesh, discussing various aspects like microservices, traffic management, and community involvement.
+      category: Documentation
+      category_confidence: 0.9
+      language: Go
+      tags: api-management, circuit-breaker, consul, documentation, enforce-policies, envoy, fault-injection, istio, kubernetes, lyft-envoy, microservice, microservices, nomad, polyglot-microservices, proxies, request-routing, resiliency, service-mesh, traffic-management
+    - name: dokku/dokku
+      link: https://github.com/dokku/dokku
+      description: Dokku is a lightweight platform-as-a-service that leverages Docker to allow developers to easily create, manage, and deploy applications. It provides a simple interface to define application configurations and orchestrate containerized deployments. Being a simpler and more accessible alternative to larger cloud services, Dokku enables users to host applications on their own servers. The project also emphasizes community involvement through sponsorships and contributions, highlighting its open-source nature.
+      summary: Dokku is a Docker-powered platform-as-a-service that simplifies the process of building and managing app lifecycles.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: Dokku is a PaaS built on Docker, which helps in the management and deployment of applications, aligning it with tools for DevOps practices.
+      category: DevOps tools
+      category_confidence: 0.9
+      language: Shell
+      tags: application-management, buildpack, containers, deployment, devops, docker, dokku, heroku, kubernetes, nomad, paas
+    - name: thangchung/go-coffeeshop
+      link: https://github.com/thangchung/go-coffeeshop
+      description: This project is an event-driven microservices coffee shop application developed in Golang and deployed utilizing Nomad, Consul Connect, Vault, and Terraform. It showcases various services including product and counter services, as well as a grpc-gateway for handling requests. The architecture emphasizes a clean domain-driven design with detailed deployment instructions relevant to the HashiCorp stack. This serves as both a practical demo for developers and a guide for implementing similar microservices patterns with Nomad.
+      summary: A practical event-driven microservices demo built with Golang, utilizing Nomad, Consul Connect, Vault, and Terraform for deployment.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a practical demonstration of an event-driven microservices architecture using Nomad, along with other HashiCorp tools, making it a relevant tutorial/example for users interested in Nomad integration.
+      category: Knowledge
+      category_confidence: 0.9
+      language: Go
+      tags: alpinejs, clean-architecture, coffee-shop-system, consul, consul-connect, ddd, dependency-injection, deployment, echo-framework, event-driven, event-driven-architecture, event-driven-microservices, golang, grpc-gateway, microservices, nomad, postgresql, rabbitmq, sqlc, terraform, vault, vertical-slice-architecture, wire
+    - name: crazy-max/diun
+      link: https://github.com/crazy-max/diun
+      description: Diun is a Command-Line Interface (CLI) application written in Go that provides notifications when a Docker image is updated on a Docker registry. It is delivered as a single executable and a Docker image, facilitating easy installations and deployment. Users can leverage its functionalities to ensure they stay informed about image updates, which is crucial for maintaining optimal application performance. The project offers comprehensive documentation and encourages contributions and support from its user community.
+      summary: Diun is a CLI application that notifies users when a Docker image is updated on a registry.
+      ignore: false
+      ignore_reason: The project focuses on Docker image notifications and does not mention Hashicorp Nomad, but it does provide a useful service in a related domain.
+      category_rationale: The project integrates with Docker registries to provide notifications for image updates, making it a utility for users managing Docker services.
+      category: Integrations
+      category_confidence: 0.85
+      language: Go
+      tags: automation, cli, discord, diun, docker, docker-registry, go, golang, gotify, image-updates, kubernetes, manifest, nomad, notifications, pushover, registry, rocketchat, slack, swarm, telegram, update, update-checker, watch
+    - name: cbovis/awesome-digital-nomads
+      link: https://github.com/cbovis/awesome-digital-nomads
+      description: Awesome Digital Nomads is a curated list of incredible resources specifically tailored for individuals living the digital nomad lifestyle. The list includes diverse categories such as travel planning, accommodation, remote jobs, and essential gear. It serves as a comprehensive guide, highlighting various platforms, services, and communities that can enhance the experience of digital nomads. Contributors are encouraged to submit additional resources, ensuring the list stays up-to-date and relevant for its users.
+      summary: Awesome Digital Nomads is a curated list of valuable resources designed for digital nomads.
+      ignore: true
+      ignore_reason: The project does not mention Hashicorp Nomad, which is a requirement for consideration.
+      category_rationale: This project is a curated list providing valuable resources for digital nomads, making it an 'Awesome list'.
+      category: Awesome lists
+      category_confidence: 0.9
+      language: ""
+      tags: accommodation, awesome, awesome-list, community, digital-nomad, digital-nomads, guides, nomad, remote-jobs, remote-work, resources, travel-planning
+    - name: jippi/awesome-nomad
+      link: https://github.com/jippi/awesome-nomad
+      description: Awesome Nomad is a curated list of various tools and utilities that enhance the usability and functionality of HashiCorp Nomad. It features sections dedicated to user interfaces, autoscaling, CI/CD, plugins, and more. The list is open for contributions, allowing users to add additional tools and projects. This is a valuable resource for anyone looking to work with or optimize their experience using Nomad.
+      summary: Awesome Nomad is a curated list of various tools and utilities that enhance the usability and functionality of HashiCorp Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a curated list of tools related to HashiCorp Nomad, which fits well under the 'Awesome lists' category. It is specifically focused on categorizing various Nomad tools and utilities, providing a comprehensive overview for users interested in enhancing their Nomad setup.
+      category: Awesome lists
+      category_confidence: 0.9
+      language: ""
+      tags: awesome, awesome-list, awesome-tools, curated-list, hashicorp, hashicorp-nomad, nomad, tools, utilities
+    - name: hashicorp/levant
+      link: https://github.com/hashicorp/levant
+      description: Levant is an open-source templating and deployment tool designed for HashiCorp Nomad jobs. It offers real-time feedback, advanced job status checking, and facilitates canary deployments. It supports multiple file formats for template variable declaration and provides detailed failure inspections during job deployments. With various installation options available, Levant streamlines the deployment process for applications on Nomad.
+      summary: Levant is an open-source tool that offers templating and deployment capabilities for HashiCorp Nomad jobs.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a templating and deployment tool specifically for HashiCorp Nomad jobs, making it integral for setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 1
+      language: Go
+      tags: canary-deployments, continuous-deployment, deployment, feedback, go, golang, hashicorp, hashicorp-nomad, infrastructure, job-status, nomad, nomad-job, open-source, templating
+    - name: kadalu/kadalu
+      link: https://github.com/kadalu/kadalu
+      description: Kadalu is a lightweight persistent storage solution designed for Kubernetes, OpenShift, and Nomad, utilizing GlusterFS in the background. It offers an operator that deploys Container Storage Interface (CSI) pods and Gluster storage pods, allowing users to manage persistent volumes through APIs. The project simplifies storage management for container ecosystems by providing straightforward installation commands and user interactions. With support for multiple Kubernetes distributions, Kadalu focuses on enabling effective storage solutions in cloud-native environments, including those managed by Nomad.
+      summary: Kadalu provides a lightweight persistent storage solution for Kubernetes, OpenShift, and Nomad using GlusterFS.
+      ignore: false
+      ignore_reason: The project mentions HashiCorp Nomad in its description, indicating that it is relevant for this specific category and should not be ignored.
+      category_rationale: The project provides a persistent storage solution specifically for Nomad users, indicating it falls under tools and utilities for setting up infrastructure related to Nomad.
+      category: Infrastructure setup
+      category_confidence: 0.8
+      language: Python
+      tags: arm64, cloud-native, container-ecosystem, csi, csi-driver, csi-pods, gluster, glusterfs, heketi, helm-chart, k3s, k8s, k8s-sig-storage, kubernetes, kubernetes-sig-storage, microk8s, nomad, openshift, openshift-storage, operator, persistent-storage, rancher, rke, rook, storage, storage-management
+    - name: jsiebens/hashi-up
+      link: https://github.com/jsiebens/hashi-up
+      description: hashi-up is a lightweight utility that allows the installation of HashiCorp Consul, Nomad, or Vault on any remote Linux host via SSH. It automates the installation process, requiring just SSH access and the hashi-up binary, making it easy and fast to provision services in under a minute. The tool is cross-platform, written in Go, and simplifies a typically manual setup process for developers by streamlining the commands needed to bring up a Nomad or Consul cluster. Additionally, it supports integration with existing clusters, enhancing its functionality for DevOps tasks.
+      summary: hashi-up is a utility for quickly installing HashiCorp Nomad, Consul, or Vault on remote Linux hosts over SSH.
+      ignore: false
+      ignore_reason: The project explicitly mentions HashiCorp Nomad, making it relevant to the interests centered around Nomad infrastructure management.
+      category_rationale: The project is specifically designed as a tool for installing HashiCorp Nomad and related services on remote servers, aligning perfectly with the category.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: automation, boundary, cloud, consul, consul-cluster, devops, devtools, go, golang, hashicorp, installation, linux, nomad, nomad-cluster, raspberry-pi, ssh, ssh-agent, vault, vault-cluster, vm
+    - name: robinovitch61/wander
+      link: https://github.com/robinovitch61/wander
+      description: '`wander` is a terminal application/TUI designed to efficiently interact with HashiCorp Nomad clusters, allowing users to browse jobs, allocations, and tasks. It offers features such as real-time log tailing, resource usage stats, and administrative actions for managing tasks. The application is equipped to execute commands on running tasks and to view job specifications. With installation options for various platforms and customizable configurations, `wander` enhances the user experience for managing Nomad clusters.'
+      summary: Wander is a terminal application designed to interact with HashiCorp Nomad clusters.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is specifically a terminal application for interacting with HashiCorp Nomad, facilitating various operations like job browsing and log management, making it a tool for Nomad infrastructure setup and management.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: bubbletea, charm, charmbracelet, cluster-management, hacktoberfest, hashicorp, hashicorp-nomad, job-browsing, log-tailing, nomad, terminal, terminal-application, tui, wish
+    - name: hashicorp/damon
+      link: https://github.com/hashicorp/damon
+      description: Damon is a terminal user interface (TUI) for HashiCorp Nomad, allowing users to observe and interact with Nomad resources like Jobs, Deployments, and Allocations. It offers various functionalities, such as viewing job statuses, showing task events, and streaming logs with filtering capabilities. Currently in active development, Damon aims to improve performance and add new features based on user feedback. This tool is targeted towards developers and operators who require an efficient way to manage their Nomad workloads in a terminal environment.
+      summary: Damon is a terminal dashboard for interacting with HashiCorp Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a terminal UI specifically designed for interacting with HashiCorp Nomad resources, making it a utility tool for anyone managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: active-development, allocations, deployments, golang, hashicorp, hashicorp-nomad, interact, jobs, logs, nomad, observe-resources, terminal-ui, tui
+    - name: ansible-community/ansible-nomad
+      link: https://github.com/ansible-community/ansible-nomad
+      description: This project provides an Ansible role for the installation and configuration of HashiCorp's Nomad, a workload orchestration tool. It allows users to bootstrap a minimal Nomad cluster in various environments, specifically targeting systems like Arch Linux, Debian, RHEL, and Ubuntu. The role includes configuration options and defaults for various Nomad parameters, facilitating quick deployment and management. This tool simplifies the infrastructure setup for users looking to implement Nomad in their environments.
+      summary: Ansible role designed for the installation and configuration of Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is an Ansible role specifically designed for installing and configuring Nomad, which aligns well with setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Jinja
+      tags: ansible, ansible-role, automation, configuration, hacktoberfest, hashicorp, infrastructure, nomad, orchestration, scheduler
+    - name: mr-karan/homelab
+      link: https://github.com/mr-karan/homelab
+      description: This project provides scripts and Terraform modules for setting up a home server using a single node Nomad server to run various services. It incorporates service discovery with Consul and offers connectivity through Tailscale VPN. The Ansible scripts help in bootstrapping the node along with configurations for managing Nomad jobs and other services like Pihole and Gitea. Moreover, the README includes a guide to setting up Nomad and Consul, showcasing the practical applications of these technologies in a home lab environment.
+      summary: Project providing infrastructure as code and setup scripts for a personal home server using Nomad.
+      ignore: false
+      ignore_reason: The project includes HashiCorp Nomad in its infrastructure setup, making it relevant and not just a random home lab project.
+      category_rationale: The project provides setup scripts and infrastructure as code for a personal home server, specifically using Nomad, which aligns with tools and utilities for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HTML
+      tags: ansible, consul, devops, gitea, hashicorp, home-server, infrastructure, infrastructure-as-code, nomad, pihole, raspberry-pi, reverse-proxy, setup-scripts, tailscale, terraform
+    - name: hashicorp/nomad-driver-podman
+      link: https://github.com/hashicorp/nomad-driver-podman
+      description: This project is a Nomad task driver plugin designed to facilitate the sandboxing of workloads in Podman containers. It allows users to define container images, manage lifecycle events, and monitor resource consumption through a flexible configuration. The plugin supports both rootful and rootless Podman operations and integrates deeply with Nomad's functionalities. Its features include volume binding, CPU and memory monitoring, and the ability to utilize Nomad's logging capabilities. Overall, this project aims to enrich the Nomad ecosystem by providing robust support for containerized workloads.
+      summary: A Nomad task driver plugin that helps in sandboxing workloads in Podman containers.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is specifically designed as a Nomad task driver plugin, enabling the use of Podman containers within the Nomad framework, which aligns perfectly with the category of plugins and extensions for Nomad.
+      category: Plugins
+      category_confidence: 0.9
+      language: Go
+      tags: configuration, container, containers, dockerless, logging, nomad, nomad-podman-driver, plugin, podman, resource-monitoring, sandbox, sandboxing, task-driver, workloads
+    - name: myENA/consul-backinator
+      link: https://github.com/myENA/consul-backinator
+      description: consul-backinator is a flexible tool that allows users to backup and restore Consul key-value pairs, ACL tokens, and prepared queries. It is written in Go and utilizes the official Consul API without restrictions on the number of keys involved. The utility supports gzip compression and AES256 encryption for backup files and includes data integrity checks. It is particularly useful for maintaining backup operations in environments managed by Nomad, automating regular tasks such as backups of essential data.
+      summary: Consul-backinator is a command line utility for backing up and restoring Consul data, including key-value pairs and ACL tokens.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project provides a utility for backup and restoration of Consul data which is highly relevant to users operating in Nomad - Heart of HashiCorp's orchestration.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: backup, consul, consul-acl-backup, consul-backup, consul-kv-backup, consul-query-backup, docker, encrypted-backup, go, nomad, restore, utility
+    - name: aldoborrero/hashi-homelab
+      link: https://github.com/aldoborrero/hashi-homelab
+      description: Hashi Homelab is a collection of Nomad recipes intended for an Intel Nuc cluster utilizing Nomad, Consul, and Vault. It includes configuration for various services like Grafana, Plex, and Prometheus among others. The project also incorporates Packer images for both Nomad client/server and Wireguard VM setups. Users are encouraged to adapt the recipes according to their specific requirements and can contribute to the project.
+      summary: Hashi Homelab is a repository that provides Nomad recipes for various open source projects designed for use on a Nomad, Consul, and Vault-enabled Intel Nuc cluster.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides Nomad recipes specifically designed for various open source projects, which are crucial for operators to effectively manage and maintain Nomad infrastructures.
+      category: Ops tools
+      category_confidence: 0.85
+      language: Shell
+      tags: bitwarden, cluster, consul, deployment, hashicorp, hashicorp-homelab, intel-nuc, lazylibrarian, nomad, nomad-jobs, open-source-projects, packer, recipes, sabnzbd, services, sonarr, vault, vm
+    - name: Roblox/nomad-driver-containerd
+      link: https://github.com/Roblox/nomad-driver-containerd
+      description: Nomad task driver for launching containers using containerd allows users to deploy and manage containerized applications without relying on Docker. This project integrates with the Nomad orchestration system to directly utilize containerd as the runtime environment. It simplifies the process of managing containers by eliminating the need for an additional Docker layer, making deployment more efficient. The repository includes setup instructions, example jobs, and various configuration options to customize the driver according to user needs.
+      summary: This project is a Nomad task driver that enables the launching of containers using containerd directly.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a Nomad task driver specifically designed to work with containerd. It enhances Nomad's capabilities to directly manage containers without needing docker, categorizing it as an extension for Nomad.
+      category: Plugins
+      category_confidence: 0.9
+      language: Go
+      tags: containerd, containers, contributions-welcome, dockerless, driver, go, golang, hashicorp-nomad, help-wanted, nomad
+    - name: astro/skyflake
+      link: https://github.com/astro/skyflake
+      description: Skyflake is a project designed to create a hyperconverged infrastructure using NixOS, allowing for dynamic virtual machines managed by Nomad. It utilizes a system where users can deploy their machines by simply pushing their Nix Flakes to a Git repository. The process includes server-level configuration through Nix, where each machine in the cluster can be controlled and customized based on user needs. This infrastructure setup provides a modern approach, eliminating the need for Docker or Kubernetes while leveraging the capabilities of Nix and Nomad.
+      summary: Skyflake is a project that delivers hyperconverged infrastructure for NixOS, leveraging Nomad for virtual machine management.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project focuses on deploying NixOS infrastructure using Nomad, which directly relates to setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Nix
+      tags: ceph, cluster, deployment, flakes, git-push, hyperconverged-infrastructure, microvm, nix, nixos, nomad, virtual-machines
+    - name: e2b-dev/infra
+      link: https://github.com/e2b-dev/infra
+      description: E2B Infra is a cloud runtime for AI agents, providing the infrastructure necessary to manage these agents effectively. This monorepo includes several key components written in Go, along with Terraform configurations for deployment purposes. Currently, it supports deployment on GCP, offering a structured approach to creating and managing environments for AI applications. The project's aim is to enhance user experience and streamline the deployment of AI agents in cloud environments.
+      summary: E2B Infra provides open-source infrastructure for deploying AI agents in the cloud.
+      ignore: true
+      ignore_reason: The project does not mention HashiCorp Nomad, which is required to categorize it in relation to Nomad-oriented projects.
+      category_rationale: The project focuses on providing infrastructure and deployment tools, but does not mention HashiCorp Nomad, which is a critical aspect for categorization.
+      category: Infrastructure setup
+      category_confidence: 0.7
+      language: Go
+      tags: ai-agents, cli, cloud-runtime, code-interpreter, consul, deployment, devtools, e2b, environments, firecracker, gcp, go, golang, gpt, gpt-4, infrastructure, kvm, llm, management, microvm, nomad, orchestration, sandbox, sdks, templates, terraform, vm, vmm
+    - name: RemoteCampHQ/how-to-work-remotely
+      link: https://github.com/RemoteCampHQ/how-to-work-remotely
+      description: The project features a list of companies or job boards advertising remote jobs, along with discussions and various media resources about remote work culture. It includes links to articles, podcasts, videos, and tools that facilitate remote work. The project encourages community contributions and provides guidelines for feedback and improvements. Overall, it serves as a helpful repository for individuals seeking remote job opportunities and insights into remote working practices.
+      summary: This project is a comprehensive resource for finding remote job opportunities and understanding remote work culture.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a curated list of resources, including articles, videos, and tools related to remote work culture, indicating it belongs in the documentation and articles category.
+      category: Documentation
+      category_confidence: 0.8
+      language: ""
+      tags: articles, companies, job-boards, nomad, nomad-job, remote, remote-culture, remote-jobs, remote-work, remote-working, remotecamp, remotecamphq, remotely-work, remotework, resources, tools, videos
+    - name: seatgeek/nomad-helper
+      link: https://github.com/seatgeek/nomad-helper
+      description: The nomad-helper project offers useful tools for working with HashiCorp Nomad, allowing teams to efficiently onboard and manage Nomad jobs and nodes. It provides features such as scaling, attaching to running containers, and managing namespaces and nodes through various commands. The project is built using Go and is easily installable as binaries or via Docker. With its focus on enhancing the Nomad experience, it serves as a crucial utility for DevOps teams managing Nomad clusters.
+      summary: Nomad-helper is a Go-based tool designed to enhance the usability of HashiCorp Nomad at scale.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides tools specifically designed to facilitate the use of HashiCorp Nomad at scale, which falls under the category of utilities for setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: go, hashicorp, hashicorp-nomad, infrastructure, management, nomad, scaling, tools, utilities
+    - name: cneira/firecracker-task-driver
+      link: https://github.com/cneira/firecracker-task-driver
+      description: This project is a Nomad task driver designed to create and manage micro-vms using Firecracker technology. It allows users to leverage lightweight virtualization to run isolated instances, primarily optimizing resource usage in containerized environments. The driver integrates seamlessly with the Nomad scheduling system, enabling the easy deployment of micro-vms as part of the infrastructure management. It includes configuration options for memory, CPU, networking, and storage tailored for micro-vms, making it a suitable solution for efficient microservices deployment.
+      summary: A Nomad task driver for managing micro-vms using Firecracker.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a plugin specifically for Nomad that allows for the management of micro-vms using Firecracker, which aligns closely with the category of extensions for Nomad.
+      category: Plugins
+      category_confidence: 0.9
+      language: Go
+      tags: bootdisk, cni, deployment, ext4, firecracker, firecracker-microvms, firecracker-task-driver, kernel-image, linux-kernel, micro-vms, microvm, nomad, rootfs, task-driver, virtualization, vmlinux
+    - name: hashicorp/terraform-provider-nomad
+      link: https://github.com/hashicorp/terraform-provider-nomad
+      description: This project is the Terraform provider for HashiCorp Nomad, allowing users to manage Nomad resources through Terraform configurations. It is maintained by the HashiCorp Nomad team and requires Terraform and Go to build and use. The provider can be used to automate the setup, configuration, and management of Nomad resources in a declarative manner, leveraging Terraform's infrastructure-as-code principles. Additionally, instructions for building, using, and testing the provider are provided, catering to developers who wish to contribute to its functionality.
+      summary: The HashiCorp Terraform provider for Nomad enables management of Nomad resources using Terraform.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is specifically a Terraform provider for Nomad, which qualifies it as a plugin or extension for the Nomad ecosystem.
+      category: Plugins
+      category_confidence: 1
+      language: Go
+      tags: automation, hashicorp, infrastructure-as-code, nomad, provider, terraform, terraform-provider
+    - name: zerodha/nomad-cluster-setup
+      link: https://github.com/zerodha/nomad-cluster-setup
+      description: This repository includes Terraform modules that help deploy a HashiCorp Nomad cluster on AWS using Auto Scaling Groups. The modules facilitate the provisioning of Nomad server and client nodes, while also including Packer scripts for creating custom Amazon Machine Images (AMIs) with Nomad pre-installed. The setup ensures optimal performance and fault tolerance by distributing Nomad servers across multiple Availability Zones. Furthermore, it includes configurations for important AWS resources like Security Groups and IAM roles to ensure seamless communication within the cluster.
+      summary: This project provides Terraform modules to deploy a HashiCorp Nomad cluster on AWS.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides Terraform modules specifically designed to set up and manage Nomad infrastructure on AWS, making it a utility for deploying and managing Nomad clusters effectively.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: ami, auto-scaling-group, aws, hashicorp-nomad, infrastructure, nomad, terraform
+    - name: jrxFive/python-nomad
+      link: https://github.com/jrxFive/python-nomad
+      description: This project is a Python client library for Hashicorp Nomad, allowing developers to interact with Nomad's API easily. It provides functions for managing jobs, allocations, and other resources within a Nomad cluster. The installation is straightforward via pip, and comprehensive documentation is available to assist users. By utilizing this library, developers can seamlessly integrate and automate interactions with Nomad in their Python applications.
+      summary: A Python client library for Hashicorp Nomad that enables easy interaction with the Nomad API.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a Python client library for interacting with Hashicorp Nomad, which classifies it as a Software Development Kit (SDK) specifically designed for Nomad.
+      category: SDK
+      category_confidence: 0.9
+      language: Python
+      tags: api, api-interaction, client, client-library, hashicorp, hashicorp-nomad, library, nomad, python, sdk
+    - name: jvirtanen/vim-hcl
+      link: https://github.com/jvirtanen/vim-hcl
+      description: The jvirtanen/vim-hcl project offers syntax highlighting for HashiCorp Configuration Language (HCL), enhancing the coding experience in Vim. HCL is widely used by multiple HashiCorp tools, such as Consul, Nomad, Packer, Terraform, and Vault. This plugin allows users to write and edit HCL files with better readability and structure, making it easier for developers to work with these configurations. The installation process is straightforward, utilizing Vim's package support for easy setup.
+      summary: This project provides syntax highlighting for the HashiCorp Configuration Language (HCL) used in various HashiCorp tools, including Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides syntax highlighting for the HashiCorp Configuration Language (HCL), which is directly relevant to tools and extensions related to HashiCorp products, including Nomad.
+      category: Plugins
+      category_confidence: 0.9
+      language: Vim script
+      tags: configuration-language, consul, hashicorp, hcl, nomad, packer, syntax-highlighting, terraform, vault, vim
+    - name: cosmonic-labs/netreap
+      link: https://github.com/cosmonic-labs/netreap
+      description: Netreap is a tool designed for managing Cilium in non-Kubernetes clusters, specifically tailored for use with Nomad. Its functionality includes cleaning up orphaned endpoints and syncing Cilium policies across nodes. The project aims to simplify the management of Cilium by providing a straightforward way to operate within the Nomad ecosystem. Given that it enhances operational workflows related to Nomad, it's essential for cluster administrators.
+      summary: Netreap is a non-Kubernetes tool for managing Cilium endpoints across a Nomad cluster.
+      ignore: false
+      ignore_reason: The project specifically mentions Hashicorp Nomad, which aligns with the requirements for consideration.
+      category_rationale: The project provides a solution for managing Cilium endpoints in a Nomad environment, which directly relates to maintaining Nomad infrastructures.
+      category: Ops tools
+      category_confidence: 0.9
+      language: Go
+      tags: cilium, cilium-cluster-mesh, cilium-operator, cleanup, configuration, consul, cosmonic, endpoints, infrastructure-manager, netreap, nomad, policies
+    - name: fhemberger/nomad-demo
+      link: https://github.com/fhemberger/nomad-demo
+      description: This project is a Vagrant-based demo that showcases how to set up and use HashiCorp's Nomad, along with Consul and Vault. It simplifies the complicated process of deploying and managing both containerized and non-container workloads. The setup includes various tools such as Traefik for load balancing and Prometheus for monitoring. It is intended to help users understand the integration of these HashiCorp tools in a controlled environment, albeit not for production use.
+      summary: This repository provides a Vagrant-based demo setup for running Hashicorp Nomad along with other HashiCorp tools.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a Vagrant-based demo setup for running Hashicorp Nomad, which helps users explore and utilize Nomad infrastructure effectively.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: cloud-infrastructure, consul, coredns, demo, demo-setup, hashicorp-nomad, nomad, prometheus, traefik, vagrant, vault, workload-orchestrator
+    - name: jrasell/nomadfiles
+      link: https://github.com/jrasell/nomadfiles
+      description: This repository includes a collection of Nomad job files used for deploying applications to a cluster. It features continuous delivery examples for Nomad jobs and integrates with Jenkins for automated deployments using a Jenkinsfile and JobDSL configuration. The project aims to provide a clear structure and ease of use for managing Nomad deployments across different environments. It utilizes Levant, a templating tool for Nomad jobs, to enhance deployment capabilities and user experience.
+      summary: A collection of Nomad job files for deploying applications to a cluster, featuring continuous delivery examples.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project contains various Nomad job files and examples demonstrating how to automate deployments using Jenkins alongside Nomad, making it suitable for the 'Examples and demos' category.
+      category: Examples and demos
+      category_confidence: 0.9
+      language: Groovy
+      tags: automation, continuous-delivery, continuous-deployment, deployments, groovy, hashicorp, hcl, jenkins, jenkins-job-dsl, jenkinsfile, job-files, job-specification, jobdsl, levant, nomad, nomad-jobs
+    - name: seatgeek/nomad-firehose
+      link: https://github.com/seatgeek/nomad-firehose
+      description: '`nomad-firehose` is a tool meant to enable teams to quickly build logic around nomad task events without hooking into Nomad API. The tool monitors changes in job, allocation, nodes and evaluations, sending these events to various sinks such as RabbitMQ, Kafka, or even stdout. It works by utilizing Consul to maintain leadership and reduce event duplication. Moreover, it supports various configuration options for connecting to different sinks and is available as a Docker container.'
+      summary: The `nomad-firehose` is a tool that facilitates the monitoring of changes in Nomad job, allocation, nodes, and evaluations, and pushes those changes to various outputs.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project is specifically designed to facilitate the interaction with Nomad task events, providing a tool for easier management of allocations, jobs, and nodes through a firehose mechanism.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: allocation-changes, consul, firehose, hashicorp, hashicorp-nomad, job-changes, kafka, nomad, rabbitmq, task-events, tools
+    - name: kencx/homelab
+      link: https://github.com/kencx/homelab
+      description: This repository contains infrastructure-as-code for the automated deployment and configuration, and management of a Hashicorp (Nomad + Consul + Vault) cluster on Proxmox. It uses Packer, Ansible, and Terraform to provision a full Hashicorp cluster in a semi-automated manner. The project allows users to create VM templates, provision cluster nodes, and automatically install and configure the necessary components. It emphasizes managing multiple nodes and provides features like automated certificate management and secure communication.
+      summary: This project automates the deployment and management of a Hashicorp cluster including Nomad, Consul, and Vault on Proxmox.
+      ignore: false
+      ignore_reason: The project explicitly mentions Hashicorp Nomad in its description and README, indicating its relevance to the specified use case.
+      category_rationale: The project is focused on the deployment and management of a Hashicorp Nomad cluster along with related tools (Consul and Vault), which is directly aligned with the needs of operators managing Nomad infrastructures.
+      category: Ops tools
+      category_confidence: 0.95
+      language: YAML
+      tags: ansible, automation, consul, deployment, hashicorp, homelab, infrastructure-as-code, management, nomad, packer, proxmox, terraform, vault
+    - name: thangchung/coffeeshop-on-nomad
+      link: https://github.com/thangchung/coffeeshop-on-nomad
+      description: The .NET coffeeshop application runs on Nomad and Consul Connect, providing a setup for different microservices in a containerized environment using Docker. It includes multiple services such as product service, counter service, barista service, and kitchen service, all running on Nomad, and facilitates interactions through both local development and control plane UI. This project serves as an example of how to integrate Nomad in a real-world application scenario, highlighting common use cases and setups.
+      summary: The .NET coffeeshop application showcases the use of Docker, Nomad, and Consul Connect for running microservices.
+      ignore: false
+      ignore_reason: The project is directly related to HashiCorp Nomad and provides practical implementation examples, thus it should not be ignored.
+      category_rationale: The project provides a .NET application that specifically sets up and runs various services using HashiCorp Nomad, demonstrating tools and utilities for managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: C#
+      tags: .net, consul, docker, dotnet, infrastructure, masstransit, microservices, nomad, opentelemetry, rabbitmq, service-mesh, traefik
+    - name: star3am/hashiqube
+      link: https://github.com/star3am/hashiqube
+      description: HashiQube is an ultimate hands-on DevOps lab that allows users to run all HashiCorp products in a Docker container or using Vagrant. It provides the ability to easily showcase and integrate these tools both locally and in a multi-cloud environment. The platform is specifically designed to help engineers and developers practice and learn about GitHub, Terraform, and Nomad, with detailed instructions and integration examples. Users can quickly get started through various methods, including GitHub Codespaces, making it accessible and effective for learning and demonstration purposes.
+      summary: HashiQube is a hands-on DevOps development lab for running all HashiCorp products in Docker or Vagrant.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides comprehensive documentation on running and utilizing various HashiCorp products within a development lab environment, which aligns well with the documentation and articles category.
+      category: Documentation
+      category_confidence: 0.9
+      language: JavaScript
+      tags: airflow, ansible, ansible-project, boundary, consul, dbt, devops, docker, gitlab, hands-on-lab, hashicorp, hashiqube, jenkins, kubernetes, minikube, nomad, open-source, packer, terraform, vagrant, vault, waypoint
+    - name: multani/docker-nomad
+      link: https://github.com/multani/docker-nomad
+      description: This project provides a Docker image for running the Nomad scheduler, primarily aimed at testing and development environments. Users can pull the image and configure it using standard Docker practices and Nomad's configuration methods. The repository details how to run both Nomad servers and clients within Docker containers, including configuration settings and necessary privileges. The Docker image follows Hashicorp's model, ensuring compatibility with their suite of tools.
+      summary: This project provides a Docker image for running Hashicorp Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a Docker image that provides a means to run Hashicorp Nomad, making it easier to set up and test Nomad environments within Docker. This directly aligns with the category focused on tools for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Dockerfile
+      tags: container, docker, hashicorp, infrastructure, nomad, scheduler, testing
+    - name: marco-lancini/offensive-infrastructure
+      link: https://github.com/marco-lancini/offensive-infrastructure
+      description: This repository hosts the supporting code for a blog series focused on Offensive Infrastructure with modern technologies, suggesting a practical approach to infrastructure setups.
+      summary: This repository provides code for a blog series on Offensive Infrastructure using modern technologies.
+      ignore: true
+      ignore_reason: The project does not mention HashiCorp Nomad, which is a key requirement for categorization.
+      category_rationale: The project involves infrastructure and supporting code, indicating it may contain DevOps utilities.
+      category: DevOps tools
+      category_confidence: 0.8
+      language: Shell
+      tags: ansible, ansible-roles, consul, devops, docker, docker-compose, hashistack, modern-technologies, nomad, offensive-infrastructure, pentesting, shell, supporting-code, terraform, vault
+    - name: mayuresh82/gocast
+      link: https://github.com/mayuresh82/gocast
+      description: GoCast is a tool that performs controlled BGP (Border Gateway Protocol) route announcements from a host, allowing for effective load balancing of services like DNS across geographically diverse regions. It operates by running predefined health checks to determine whether to announce or withdraw routes for services, particularly those utilizing Virtual IPs (VIPs) for anycast load balancing. GoCast leverages the GoBGP library for communication with remote peers and supports automatic service discovery and health checking through integrations with Consul. This robust setup positions GoCast as a reliable component for managing network routes in environments overseen by orchestration tools such as Nomad.
+      summary: GoCast is a tool for managing controlled BGP route announcements from a host.
+      ignore: false
+      ignore_reason: The project is explicitly related to BGP route announcements and addresses compatibility with the HashiCorp Nomad orchestration system, which qualifies it as being relevant to Nomad-related projects.
+      category_rationale: GoCast specifically mentions compatibility issues and alternatives related to orchestration solutions such as Nomad, implying that it is designed to work within Nomad or similar environments, making it relevant as a plugin or extension for Nomad.
+      category: Plugins
+      category_confidence: 0.7
+      language: Go
+      tags: anycast, bgp, consul, docker, exabgp, go, golang, health-checks, load-balancing, nomad, route-announcements, vip
+    - name: mckeever02/tryingtowork
+      link: https://github.com/mckeever02/tryingtowork
+      description: The project offers a collection of online workspaces located in Belfast, Dublin, and London, with plans for expansion to more cities. It serves as a resource for freelancers and remote workers seeking places to work outside of a traditional office. The initiative encourages user feedback and suggestions for improvement, indicating a communal approach. Overall, this project aims to support work-life balance by promoting flexible working environments.
+      summary: This project is a collection of online workspaces to facilitate remote work in multiple cities.
+      ignore: true
+      ignore_reason: The repository does not mention HashiCorp Nomad, which is a critical requirement for inclusion in this analysis.
+      category_rationale: The project provides information about available workspaces in various cities, which fits into the documentation or article category by sharing valuable insights and resources for individuals looking for workspaces.
+      category: Documentation
+      category_confidence: 0.8
+      language: JavaScript
+      tags: belfast, cities, collection-of-spaces, dublin, freelance, jekyll, liquid, london, nomad, nomad-workers, online-working, opensource, remote-work, speed, tachyons, workspaces
+    - name: dsaidgovsg/terraform-modules
+      link: https://github.com/dsaidgovsg/terraform-modules
+      description: This repository contains a set of opinionated Terraform modules designed to provision HashiCorp's suite of tools on AWS, including Consul, Nomad, and Vault. It allows developers to set up a basic infrastructure on the cloud effectively. The modules include configurations for VPC, Nomad clusters, Vault integration, and other essential features for managing cloud services. Each module serves a specific purpose in the deployment and management of services on Nomad and works seamlessly with other HashiCorp tools.
+      summary: A set of reusable Terraform modules for provisioning HashiCorp tools, including Nomad, on AWS.
+      ignore: false
+      ignore_reason: The project clearly mentions HashiCorp Nomad in its purpose, making it relevant to the focus area.
+      category_rationale: The project provides reusable Terraform modules specifically for provisioning HashiCorp's tools, including Nomad, which clearly falls under tools for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: aws, cloud, consul, devops, elastics, elasticsearch, hashicorp, infrastructure, logging, modules, nomad, terraform, vault
+    - name: picatz/terraform-google-nomad
+      link: https://github.com/picatz/terraform-google-nomad
+      description: The 'terraform-google-nomad' is a Terraform module that helps users set up Nomad clusters integrated with Consul on Google Cloud Platform. It includes features such as gossip encryption, mTLS for enhanced security, and configurations for optional tools like load balancers and SSH bastion hosts. The module also features centralized logging through GCP's Cloud Logging and visualization options with Grafana. Users can easily deploy and manage their Nomad infrastructure with this module along with security features like ACLs and token management for Nomad and Consul.
+      summary: Terraform module for setting up Nomad clusters with Consul on Google Cloud Platform.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project is a Terraform module specifically designed for creating Nomad clusters on GCP, indicating it is a tool for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: acls, cluster, consul, consul-connect, deployment, gcp, infrastructure, logging, mtls, nomad, packer, security, ssh, terraform
+    - name: anubhavmishra/envoy-consul-sds
+      link: https://github.com/anubhavmishra/envoy-consul-sds
+      description: The `envoy-consul-sds` project is a service discovery service that implements the Envoy SDS API using Consul. This tutorial guides users on running Nginx on Nomad, registering it with Consul, and accessing it through Envoy using Consul's DNS interface. It aims to demonstrate how Envoy can integrate with applications that are running in a Nomad orchestrated environment. By following the documentation, users can learn how to bootstrap Nomad infrastructure and deploy various services.
+      summary: Envoy Consul Service Discovery Service integrates Envoy with Consul and Nomad to provide service discovery functionalities.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a tutorial on utilizing Envoy with Consul and Nomad, indicating its focus on instructive content around Nomad's usage.
+      category: Knowledge
+      category_confidence: 0.9
+      language: Go
+      tags: consul, envoy, nginx, nomad, sds, service-discovery, tutorial
+    - name: 42wim/nomadctld
+      link: https://github.com/42wim/nomadctld
+      description: nomadctld is an SSH server that sits between users and a Nomad cluster, allowing controlled access to execute commands on Nomad containers. It supports authentication via SSH keys and can authorize users based on job prefixes. With various commands, users can manage their Nomad jobs and containers, view logs, and perform operations like restart and stop. The project also includes a bash script to simplify the SSH command for users.
+      summary: nomadctld is an SSH server facilitating interaction with HashiCorp Nomad clusters.
+      ignore: false
+      ignore_reason: The project clearly mentions HashiCorp Nomad in its description and readme, making it relevant and not deserving to be ignored.
+      category_rationale: The project provides an SSH server that allows limited user access to a HashiCorp Nomad cluster for managing containers. This feature fits under tools and utilities specifically for setting up and managing Nomad infrastructures.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: attach, cli, containers, docker, exec, hashicorp, logs, nomad, nomad-cluster, nomad-job, restart, server, ssh, ssh-server, stop, tail
+    - name: tristanpemble/nix-nomad
+      link: https://github.com/tristanpemble/nix-nomad
+      description: The 'nix-nomad' project facilitates the generation of HashiCorp Nomad JSON job files using Nix. It is designed to work with multiple job definitions across various environments by leveraging NixOS modules. The project's goal is to create a streamlined, fully Nix-ified HashiCorp stack. This allows for efficient job management and configuration, particularly when integrating with tools like Terranix.
+      summary: A tool for generating HashiCorp Nomad job definitions using Nix.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project provides tools for generating HashiCorp Nomad job definitions using Nix, making it a utility for setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Nix
+      tags: hashicorp, infrastructure, job-definitions, json, modules, nix, nixos, nomad
+    - name: assareh/tfc-agent
+      link: https://github.com/assareh/tfc-agent
+      description: This repository contains usage examples of the Terraform Cloud Agent, a remote runner for Terraform Cloud Business and Terraform Enterprise. It provides various implementations and examples to help users run the cloud agent in different environments such as AWS, Azure, Google Cloud, and others. Furthermore, it includes specific examples for utilizing the Terraform Cloud Agent with HashiCorp Nomad, essential for managing resources in private networks. Users can leverage these examples to optimize their cloud configurations and improve infrastructure automation.
+      summary: This repository provides examples for using the Terraform Cloud Agent, a remote runner designed for Terraform Cloud Business and Enterprise, with specific implementations for Nomad.
+      ignore: false
+      ignore_reason: The project is relevant due to its mention of HashiCorp Nomad and provides examples that are useful for users interested in utilizing Nomad alongside Terraform Cloud.
+      category_rationale: The project contains example job files for running tfc-agent on a Nomad cluster, indicating its utility for those managing Nomad infrastructures.
+      category: Ops tools
+      category_confidence: 0.9
+      language: HCL
+      tags: aws, aws-ecs, aws-iam, azure, examples, gcp, google-cloud, kubernetes, nomad, remote-runner, resource-provisioning, security-credentials, terraform, terraform-cloud-agent, vmware, vsphere
+    - name: FRosner/cluster-broccoli
+      link: https://github.com/FRosner/cluster-broccoli
+      description: Cluster Broccoli is a RESTful web service plus UI created to manage Nomad jobs through a self-service application. It allows users to define jobs based on templates, providing customization options to suit different needs. The application requires some technical knowledge for setup, aimed primarily at IT personnel, but serves both internal users like QA and data scientists and also external users such as potential customers. The project is no longer actively maintained, but users are directed to an updated fork for ongoing support.
+      summary: Cluster Broccoli is a self-service platform for managing Nomad jobs through a RESTful web service and UI.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: Cluster Broccoli is designed to work with Nomad, providing a web service and UI to manage Nomad jobs through an application, which aligns it closely with utilities for setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Scala
+      tags: cloud, cluster, cluster-management, consul, customization, elm, jobs, nomad, rest-api, restful-web-service, self-service, templates, ui
+    - name: nomad-ops/nomad-ops
+      link: https://github.com/nomad-ops/nomad-ops
+      description: The nomad-ops project is a simple operator designed to synchronize running jobs in Nomad with corresponding configurations stored in Git repositories. It requires Nomad and Docker, and provides detailed instructions for setup and operation. Users can create normal user accounts to manage their Nomad-Ops UI, enhancing the operability of the Nomad environment. It also includes specific configurations, such as ACL policies and namespace management, which are essential for smooth day-to-day operations.
+      summary: Nomad-Ops is an operator for Nomad that reconciles running jobs with Git repositories.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides an operator for Nomad that reconciles jobs and integrates with Git, which directly relates to managing and maintaining Nomad infrastructures. It offers utilities for deployment and operational tasks.
+      category: Ops tools
+      category_confidence: 0.9
+      language: TypeScript
+      tags: docker, git, git-ops, go, golang, infrastructure-management, nomad, operator, pocketbase, react, reactjs, reconciliation, typescript
+    - name: nairnavin/practical-nomad-consul
+      link: https://github.com/nairnavin/practical-nomad-consul
+      description: This project presents a detailed tutorial for setting up a three-tier application using HashiCorp's Nomad and Consul. It entails creating a realistic multi-tier application, specifically a spring-boot based pet clinic app, and deploying it within a Nomad/Consul cluster. The tutorial guides users through various steps, including the setup of service mesh, gateways, load balancers, and the database configuration. It also touches on Continuous Deployment and Monitoring, showcasing the flexibility and capability of using Nomad and Consul together. Overall, it aims to help users easily understand and implement a robust infrastructure at their local setting.
+      summary: This project is a detailed tutorial for setting up a multi-tier application using Nomad and Consul.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a comprehensive tutorial for setting up a multi-tier application on Nomad and Consul, clearly fitting it into the category of tutorials and examples specifically designed for Nomad.
+      category: Knowledge
+      category_confidence: 1
+      language: HCL
+      tags: consul, multi-tier-application, nomad, service-mesh, springboot, tutorial
+    - name: sepulworld/deadman-check
+      link: https://github.com/sepulworld/deadman-check
+      description: The Deadman Check project serves as a monitoring companion for Nomad periodic jobs and Cron jobs, notifying users if these jobs are not running as expected. It can function as an additional task in a Nomad job or as a standalone service that oversees multiple jobs. The setup allows for alerts via Slack or AWS SNS, effectively helping operators maintain and manage their jobs in real-time. This tool emphasizes operational reliability and monitoring, which are crucial for effective infrastructure management.
+      summary: Deadman Check is a monitoring tool for ensuring Nomad periodic jobs and Cron tasks run at expected intervals.
+      ignore: false
+      ignore_reason: This project is directly related to Hashicorp Nomad, providing essential monitoring features for periodic jobs, thus falling within the relevant category.
+      category_rationale: This project is designed as a monitoring companion for Nomad periodic jobs, addressing operator needs in managing the execution of tasks. It specifically integrates with Nomad and Consul, fitting well into the operational aspects of infrastructure management.
+      category: Ops tools
+      category_confidence: 0.9
+      language: Ruby
+      tags: alerts, aws-sns, consul, cron, cron-healthcheck, deadman-switch, docker, monitor, monitoring, nomad, nomad-batch-jobs, nomad-periodic-jobs, periodic-jobs, ruby
+    - name: freeCodeCamp/infra
+      link: https://github.com/freeCodeCamp/infra
+      description: The project provides infrastructure-as-code resources for freeCodeCamp.org, enabling automated and efficient infrastructure management. It utilizes HashiCorp configuration language (HCL), which is often associated with Terraform, a tool that works well with Nomad. This repository is intended to streamline the setup and deployment of necessary infrastructure components. Additionally, it appears to play a significant role in the overall operational efficiency of freeCodeCamp's platform.
+      summary: This project offers infrastructure-as-code resources for managing freeCodeCamp.org's infrastructure.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project deals with infrastructure-as-code, which is relevant for setting up and managing Nomad infrastructures, especially if it is linked to freeCodeCamp's operations.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: ansible, automation, consul, docker, freecodecamp, hacktoberfest, hcl, infrastructure-as-code, nomad, packer, terraform
+    - name: internetarchive/hind
+      link: https://github.com/internetarchive/hind
+      description: HinD is a project that sets up a mini cluster containing Nomad, Consul, and Caddy server all running within a single Podman container. It facilitates the management of Nomad jobs as Podman containers and uses Consul to manage service discovery. Additionally, the project automates the creation of reverse proxy configurations for services utilizing Caddy, allowing seamless HTTP/HTTPS traffic routing. This setup is particularly designed for users looking to easily deploy HashiCorp tools and manage their workloads through a simplified process.
+      summary: HinD is a Docker-based project that simplifies the setup of a Nomad cluster with Consul and Caddy server in a single container.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project provides a Docker-based setup that combines Nomad, Consul, and Caddy together, which are all integral parts of the Nomad infrastructure, making it fit well in the category of tools and utilities for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.95
+      language: Shell
+      tags: caddy, cicd, consul, consul-connect, docker, hashistack, infrastructure, nomad, podman
+    - name: mentoriaiac/awesome-devops
+      link: https://github.com/mentoriaiac/awesome-devops
+      description: This project is a curated list of materials related toDevOps fundamentals and tools. It includes resources on topics such as CI/CD, Docker, Kubernetes, and cloud platforms like AWS and GCP. The list features links to courses, books, and cheat sheets to assist users in learning and applying DevOps best practices. Notably, it incorporates sections specifically related to Hashicorp Nomad, making it relevant to users interested in this orchestration tool.
+      summary: A curated list of resources on DevOps fundamentals and tools including Docker, Kubernetes, and Hashicorp Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a curated list of resources covering various DevOps tools and practices, fitting the definition of an awesome list.
+      category: Awesome lists
+      category_confidence: 0.8
+      language: ""
+      tags: ansible, aws, ci/cd, cicd, devops, docker, gcp, git, infrastructure-as-code, kubernetes, nomad, observability, packer, resources, terraform, tools
+    - name: mr-karan/nomad-vector-logger
+      link: https://github.com/mr-karan/nomad-vector-logger
+      description: The nomad-vector-logger is a daemon designed to monitor jobs running within a Nomad cluster and create a Vector configuration file that collects application logs enriched with metadata from Nomad. It resolves the limitation of ordinary logs lacking contextual information by enriching them with metadata such as namespace, node, job, group, task, and allocation ID. This tool facilitates better log management for tasks that may not have extensive logging configurations, such as those using the raw_exec or exec task drivers. The generated configuration allows users to easily set up log collection with detailed context about each log event, ultimately enhancing observability and troubleshooting capabilities in their applications.
+      summary: A daemon that watches Nomad jobs to generate Vector configuration files for enriched logging.
+      ignore: false
+      ignore_reason: The project is not ignored as it is directly related to Hashicorp Nomad and provides a solution for improving logging in Nomad environments.
+      category_rationale: The project serves as a tool to enhance logging capabilities within a Nomad cluster by generating configurations for Vector, thereby integrating with Nomad's logging mechanisms.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: configuration, daemon, infrastructure, logging, logs, metadata, monitoring, nomad, vector
+    - name: mr-karan/nomad-monitoring
+      link: https://github.com/mr-karan/nomad-monitoring
+      description: This project is a collection of jobspecs and Grafana dashboards aimed at providing comprehensive monitoring for Nomad clusters. It includes dashboards monitoring server health, client resource usage, and allocation metrics. The repository also details how to configure Nomad for metric collection using built-in features, as well as how to store and visualize this data using tools like Victoriametrics and Grafana. The setup instructions for local deployment of the Nomad agent and associated tools are also provided.
+      summary: A complete monitoring solution for Nomad clusters using Grafana dashboards and jobspecs.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides jobspecs and Grafana dashboards specifically designed for monitoring Nomad clusters, which falls under the category of tools for setting up and maintaining Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: clusters, grafana, grafana-dashboard, jobspecs, metrics, monitoring, nomad, telemetry, victoriametrics, vmagent
+    - name: mr-karan/nomad-events-sink
+      link: https://github.com/mr-karan/nomad-events-sink
+      description: Nomad Events Sink is an events collection agent designed to process Nomad Events and send them to various external sink providers. It fetches events using the Nomad Events SDK, which allows for debugging cluster states and notifying operators of various changes, such as deployments or failed allocations. The tool provides an event ingestion mechanism that can be configured with multiple sink providers for use cases like long-term storage and alerting on cluster state changes. It features batch processing strategies to optimize efficiency and provides multiple deployment options including directly on Nomad clusters or via Docker.
+      summary: Nomad Events Sink is an agent for collecting and processing Nomad events to external sinks like HTTP.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project directly interacts with Nomad by collecting and processing events, making it a useful tool for managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: background-workers, configuration, deployment, docker, event-visualization, events-collection, external-sink, http, ingesting, nomad, processing-events, sdk
+    - name: jrasell/nomad-toast
+      link: https://github.com/jrasell/nomad-toast
+      description: Nomad Toast is an open-source tool that provides notifications based on events from HashiCorp Nomad. It enhances observability in an organization by enabling notifications for important events related to allocations and deployments through integration with chat systems such as Slack. Users can configure logging and specify the Nomad API endpoints as needed. The tool is built with Go and offers several installation methods, including binary downloads and Docker images.
+      summary: Nomad Toast is a tool for receiving notifications based on HashiCorp Nomad events.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a tool specifically designed to receive notifications regarding HashiCorp Nomad events, which fits well within the category of tools and utilities for Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: chatops, events, go, golang, hashicorp, hashicorp-nomad, nomad, notifications, observability, slack, tool
+    - name: sagarrakshe/nomad-dtree
+      link: https://github.com/sagarrakshe/nomad-dtree
+      description: nomad-dtree is a tool that addresses the lack of dependency management for jobs in Nomad, especially relevant in microservice architectures. It allows users to define job dependencies in a JSON format, specifying pre and post hooks alongside wait conditions for each job. This ensures that jobs are executed in the correct order, improving deployment processes. The tool also includes commands for starting and stopping jobs, providing greater control over pipeline management.
+      summary: nomad-dtree is a tool that facilitates dependency management between Nomad jobs.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is designed to handle dependencies between Nomad jobs, which directly relates to tools and utilities used for managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: consul, dependency-management, deployment, go, golang, hashicorp, infrastructure, jobs, microservices, nomad, nomad-dtree, nomad-jobs, post-hook, pre-hook
+    - name: bbopt/NOMAD.jl
+      link: https://github.com/bbopt/NOMAD.jl
+      description: NOMAD.jl provides a Julia interface for the NOMAD blackbox optimization software, enabling users to tackle difficult optimization problems that arise from costly simulations. The package allows users to define objective functions and constraints within Julia, utilizing the Mesh Adaptive Direct Search algorithm for effective blackbox optimization. It includes installation instructions and examples for quick usage, making it accessible for developers familiar with Julia. Users can further customize their NOMAD setup for enhanced functionality.
+      summary: NOMAD.jl is a Julia interface for the NOMAD blackbox optimization software.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: This project acts as a Julia interface to the NOMAD optimization algorithm, which qualifies it as a plugin or extension for NOMAD.
+      category: Plugins
+      category_confidence: 0.9
+      language: Julia
+      tags: blackbox-optimization, interface, julia, nomad, optimization, optimization-problems
+    - name: jsiebens/nomad-droplets-autoscaler
+      link: https://github.com/jsiebens/nomad-droplets-autoscaler
+      description: The Nomad DigitalOcean Droplets Autoscaler is a target plugin that allows the Nomad cluster to scale by creating and destroying DigitalOcean Droplets. It requires a DigitalOcean account and integrates with the Nomad autoscaler. The plugin provides configuration options for the Nomad agent to manage Droplets based on resource needs. This scalability feature enhances the operational efficiency of the Nomad cluster by dynamically handling clusters based on demand.
+      summary: This project is a DigitalOcean Droplets target plugin for HashiCorp Nomad Autoscaler.
+      ignore: false
+      ignore_reason: The project specifically mentions HashiCorp Nomad in its description, making it relevant, as ignoring projects that don't mention it would exclude valid Nomad-related tools.
+      category_rationale: The project provides a specific tool (do-droplets target plugin) that allows for the scaling of Nomad cluster clients using DigitalOcean, which directly involves setting up and managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: autoscaler, autoscaling, digitalocean, droplets, hashicorp, hashicorp-nomad, infrastructure, nomad, nomad-autoscaler, plugin, scaling
+    - name: thangchung/coffeeshop-modular
+      link: https://github.com/thangchung/coffeeshop-modular
+      description: The coffeeshop-modular project is a .NET coffee shop application designed with a modular approach, allowing for flexibility and ease of development. It includes a software system diagram, container diagram, and component diagram to illustrate its architecture. Users can start the project using docker-compose, and detailed instructions for integrating with HashiCorp Nomad are provided. This project is built on the foundations of a similar coffee shop project in the Quarkus ecosystem, customized for .NET 7 advancements.
+      summary: A modular .NET coffee shop application that can be started with docker-compose and integrates with HashiCorp Nomad.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project involves starting the application with Nomad, suggesting it provides utility in a Nomad-infused development environment.
+      category: Infrastructure setup
+      category_confidence: 0.8
+      language: C#
+      tags: .net, application, c4-model, clean-architecture, coffee-shop, component, container, development, docker, domain-driven-design, dotnet, modular, nomad, nomad-integration, software-system, vertical-slice-architecture
+    - name: eBayClassifiedsGroup/KomPaaS
+      link: https://github.com/eBayClassifiedsGroup/KomPaaS
+      description: KomPaaS is a proof-of-concept project that serves as a compact Platform as a Service (PaaS) built around a small Golang application encapsulated within a single container. It integrates various tools such as Nomad, Consul, and Fabio to facilitate a streamlined deployment experience. Users can easily set up, run, and test services using Docker and Docker Compose. The project aims to provide a minimal and efficient way to deploy applications using Nomad as the orchestration tool.
+      summary: KomPaaS is a compact PaaS solution built around a small Golang application that incorporates Nomad, Consul, and Fabio for easy deployment.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a compact PaaS solution that specifically mentions Nomad as a component, which fits it into the utility category for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: ""
+      tags: compact, consul, container, deploy, docker, fabio, golang, nomad, orchestration, paas
+    - name: mr-karan/nomctx
+      link: https://github.com/mr-karan/nomctx
+      description: '`nomctx` is a tool designed to facilitate the switching between different Nomad clusters and namespaces efficiently. It simplifies the process of exporting environment variables for authentication with Nomad CLI, which can be cumbersome when dealing with multiple clusters. The utility acts as a context manager, allowing users to easily switch contexts and manage various configurations with minimal effort. Additionally, it supports interaction and SSO login, enhancing user experience with seamless cluster management.'
+      summary: '`nomctx` is a tool for quickly switching between different Nomad clusters and namespaces.'
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a utility that aids in switching between multiple Nomad clusters, showcasing its function as a tool specifically for managing Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: authentication, cli, clusters, config, context-management, environment-variables, go, namespaces, nomad, sso
+    - name: eschudt/hashistack-digitalocean
+      link: https://github.com/eschudt/hashistack-digitalocean
+      description: This project, Hashistack Digitalocean, leverages Terraform to automate the setup of a Consul and Nomad cluster on DigitalOcean. It configures the necessary number of server and client droplets, integrates firewall security via a bastion host, and implements a load balancer for HTTP access. Additionally, it sets up Vault for secrets management and utilizes Consul Connect for service interaction. The comprehensive modules and scripts streamline the deployment process, allowing users to prepare a robust Nomad environment efficiently.
+      summary: Hashistack Digitalocean is a Terraform project for setting up a Consul and Nomad cluster on DigitalOcean.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides Terraform scripts specifically designed for setting up and configuring both Nomad and Consul clusters, which falls squarely under utilities for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: automation, cluster-setup, consul, digitalocean, fabio, hacktoberfest, hcl, infrastructure, nomad, scripts, terraform, vault
+    - name: fwkz/dill
+      link: https://github.com/fwkz/dill
+      description: '`dill` is a cloud-ready L4 TCP proxy designed for dynamic listener support. It allows seamless load balancing across dynamic backends, facilitating efficient traffic routing without downtime. The tool integrates with modern workload schedulers like Nomad and Consul, providing flexible configurations through various routing providers. With features like automatic changes in routing configuration and compatibility with Docker, `dill` is positioned as a powerful tool for infrastructure management in cloud environments.'
+      summary: '`dill` is a cloud-ready L4 TCP proxy with robust support for dynamic listeners and integration with Nomad.'
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project `dill` includes direct integration with Nomad for dynamic routing and service discovery, demonstrating its utility in setting up and managing Nomad infrastructures.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: cloud-ready, consul, docker, dynamic-listeners, golang, l4-tcp-proxy, load-balancer, load-balancing, nomad, proxy, reverse-proxy, routing, service-discovery, socks5
+    - name: thangchung/dapr-labs
+      link: https://github.com/thangchung/dapr-labs
+      description: Dapr Labs comprises several sub-projects that demonstrate different forms of a coffeeshop implemented in C# and Rust, utilizing WebAssembly/WASI (Spin) and Dapr. The projects aim to showcase how Dapr can be used in multi-language environments and provide examples of building distributed applications. Each sub-project illustrates the integration of Dapr with various platforms such as Kubernetes and Spin. Overall, this repository aims to help developers understand how Dapr can facilitate microservices architecture.
+      summary: Dapr Labs demonstrates multiple implementations of a coffeeshop using C# and Rust with Dapr technology.
+      ignore: true
+      ignore_reason: The description and projects within do not mention HashiCorp Nomad, which is required for consideration.
+      category_rationale: The project showcases implementations of coffeeshop microservices using Dapr, which likely involves documenting how to leverage Dapr effectively in various languages.
+      category: Documentation
+      category_confidence: 0.7
+      language: C#
+      tags: c#, consul, consul-connect, dapr, devcontainer, distributed-applications, dotnet, k3d, kubernetes, microservices, nomad, rust, spin, terraform, typescript, wasi, wasi-sdk, webassembly
+    - name: hyperbadger/nomad-pipeline
+      link: https://github.com/hyperbadger/nomad-pipeline
+      description: The Nomad Pipeline project aims to enable users to run pipeline-style workloads within HashiCorp's Nomad, which is primarily designed for batch jobs. This tool allows job dependencies to be managed effectively, allowing for the sequential execution of jobs based on defined meta-tags. By providing mechanisms for initializing task groups and annotating them, it facilitates a more efficient management of complex workflows in Nomad. With features such as dynamic task generation and job-level control, it enhances the overall usability and capability of Nomad for handling complex job scheduling scenarios.
+      summary: Nomad Pipeline is a tool to run pipeline-style workloads in HashiCorp's Nomad, allowing for job dependencies management.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is designed to enhance and manage the execution of pipeline-style workloads in HashiCorp's Nomad, making it a tool that assists in setting up infrastructure for task management.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: batch-jobs, dag, dynamic-tasks, hashicorp, job-dependencies, nomad, pipeline, task-groups, task-scheduling, workload-management
+    - name: davidsbond/homad
+      link: https://github.com/davidsbond/homad
+      description: This repository contains the configuration of a HashiCorp Nomad deployment in a home server environment, utilizing tools like Vault and Consul for high availability. It includes Terraform scripts for deploying various services like Bitwarden and Grafana, as well as custom applications designed for personal use. The structure supports persistent storage with NFS and automates upgrades and CI processes. The overall setup is geared towards operational efficiency and personal management of workloads using Nomad.
+      summary: This project manages a HashiCorp Nomad deployment for a personal home lab using Terraform, Vault, and Consul for high availability.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides an extensive configuration for managing a HashiCorp Nomad deployment, including automation for maintenance and upgrades, which falls under operational solutions for Nomad.
+      category: Ops tools
+      category_confidence: 0.9
+      language: HCL
+      tags: automation, ci/cd, configuration, consul, hashicorp, high-availability, home-lab, homelab, linux, nomad, terraform, ubuntu, vault
+    - name: kangaroot/rootstack-devfactory
+      link: https://github.com/kangaroot/rootstack-devfactory
+      description: The Devfactory is a solution meant to provide teams a quick container/native/VM runtime environment. It utilizes the Hashicorp toolset, specifically Hashicorp Nomad and Consul, to establish service discovery, secure routing, and logging capabilities with minimal adjustments needed. The project focuses on creating a monitored environment for applications using various components like Docker, Grafana, and Prometheus, making it suitable for modern cloud deployments. The initial phase targets Azure deployments, providing a foundation for scalable applications.
+      summary: Devfactory provides an integrated solution using Hashicorp tools for quick VM and container runtime environments.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project uses Hashicorp Nomad as its main runtime environment and aims to provide integrated solutions for managing VM, container, and native applications, which fits well under tools for setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Jinja
+      tags: consul, container, devfactory, grafana, hashicorp, infrastructure, loki, minio, monitoring, nomad, promtail, routing, service-discovery, traefik, vm
+    - name: mxab/nacp
+      link: https://github.com/mxab/nacp
+      description: 'The NACP (Nomad Admission Control Proxy) is a tool that acts as a proxy in front of the Nomad API to perform validation and mutation of job data. It intercepts Nomad API calls and applies OPA rules for job validation and mutation, allowing for more controlled job submissions. The project supports two main mutation methods: using OPA policies and webhook calls, ensuring that job data can be modified accurately before being processed by Nomad. This tool enhances the governance of job definitions within a Nomad environment by providing an additional layer of checks and balances.'
+      summary: NACP is an Admission Controller that acts as a proxy for the Nomad API, enabling validation and mutation of job data.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is designed to serve as a proxy for the Nomad API and provides functionality for job mutation and validation, which are critical components in setting up Nomad infrastructure effectively.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: admission-controller, devsecops, go, job-mutation, job-validation, nomad, nomad-api, notary, notation, opa, proxy
+    - name: cneira/jail-task-driver
+      link: https://github.com/cneira/jail-task-driver
+      description: This project provides a task driver that allows users to utilize FreeBSD jails within Hashicorp's Nomad orchestration system. It enables the encapsulation of environments using FreeBSD's jail feature, facilitating service isolation. The driver supports various parameters aligned with the functionality of FreeBSD jails, ensuring flexibility in configuration. Users can set up service jobs in Nomad using this driver to run tasks in FreeBSD jails seamlessly.
+      summary: This project is a Nomad task driver that leverages FreeBSD jails for container-like environments.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a task driver for Nomad, which qualifies it as a plugin or extension specifically designed to enhance Nomad's capabilities with FreeBSD jails.
+      category: Plugins
+      category_confidence: 0.9
+      language: Go
+      tags: freebsd, freebsd-jail-manager, freebsd-jails, jails, nomad, nomad-driver, nomad-task-driver, orchestration, plugin, task-driver
+    - name: jalgoarena/JAlgoArena
+      link: https://github.com/jalgoarena/JAlgoArena
+      description: JAlgoArena is a programming contest platform that allows users to host contests on any Java & Node.JS based infrastructure. It offers a feature where users can view existing problems and submit solutions with constraints on time and memory consumption. Problems are categorized into three difficulty levels, encouraging competitive programming. The platform uses a responsive UI designed with Bootstrap and React components, providing an engaging user experience.
+      summary: JAlgoArena is a programming contest platform that can be hosted on any infrastructure running Java and Node.JS.
+      ignore: true
+      ignore_reason: The description and README do not mention HashiCorp Nomad, making it irrelevant to the specified topic.
+      category_rationale: The project provides documentation and resources related to setting up and using a programming contest platform, but does not focus specifically on HashiCorp Nomad.
+      category: Documentation
+      category_confidence: 0.7
+      language: Java
+      tags: algorithms, bootstrap, coding-contest, consul, contest-platform, elk, hackerrank-alternative, jalgoarena, java, kafka, nodejs, nomad, problems, programming-contest, react-components., solutions, traefik, ui
+    - name: romantomjak/ansible-roles
+      link: https://github.com/romantomjak/ansible-roles
+      description: This project contains Ansible roles and example playbooks specifically designed for Debian-based hosts. The author emphasizes that each role is intended to work 'out of the box' while encouraging users to review customization options available in the default configuration files. The setup includes a top-level directory for organizing common and project-specific roles, along with commands for initializing a Git submodule and running playbooks. It is essential for users to refer to Ansible coding conventions and documentation provided within the repository.
+      summary: A collection of Ansible roles and example playbooks for setup on Debian-based hosts.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides documentation and examples for using Ansible roles, tailored for Debian-based hosts, which falls under the Documentation and articles category.
+      category: Documentation
+      category_confidence: 0.9
+      language: Jinja
+      tags: ansible, ansible-playbooks, ansible-roles, automation, beats, configurations, consul, debian, deployment, devops, elasticsearch, hashicorp, hashistack, influxdb, it-infrastructure, kibana, logstash, nomad, playbook, playbooks, telegraf, tinc, traefik, vault, vpn
+    - name: efbar/hashicorp-labs
+      link: https://github.com/efbar/hashicorp-labs
+      description: This repository contains tools for testing and experimenting with Hashicorp software, particularly focusing on Hashicorp's Nomad, Vault, and Consul. It enables users to set up a local VM cluster that connects these components for a seamless application deployment and testing environment. Additionally, it includes features for working with OpenFaas for serverless applications. The instructions cover installation, provisioning, and deployment, making it suitable for developers looking to experiment with orchestration and service mesh provided by Hashicorp software.
+      summary: The Hashicorp Labs project facilitates the deployment of a local Hashicorp cluster featuring Vault, Consul, and Nomad for application testing.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a comprehensive setup for a Hashicorp cluster including Nomad, allowing users to deploy and test applications effectively in a local environment.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: HCL
+      tags: ansible, cluster, consul, hashicorp, hashicorp-labs, microservices, nomad, openfaas, provision, serverless, service-mesh, terraform, testing, vagrant, vault
+    - name: dokku/dokku-scheduler-nomad
+      link: https://github.com/dokku/dokku-scheduler-nomad
+      description: dokku-scheduler-nomad is a Dokku plugin that integrates with Nomad to facilitate the deployment of applications. It allows users to leverage Nomad's scheduling capabilities effectively. The plugin also provides a local testing server that includes the installation of necessary components like Consul, Docker, and Levant. By using this plugin, developers can streamline their deployment processes within the Dokku ecosystem while utilizing Nomad as the underlying scheduler.
+      summary: dokku-scheduler-nomad is a plugin for integrating Dokku with Nomad to deploy applications.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a plugin specifically designed for integrating and deploying applications with Nomad, indicating its utility in setting up and managing infrastructure related to Nomad.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Shell
+      tags: applications, deployment, dokku, dokku-plugin, hashicorp, infrastructure, nomad, paas, plugin, scheduler
+    - name: franckverrot/trek
+      link: https://github.com/franckverrot/trek
+      description: Trek is a command-line interface (CLI) and ncurses explorer designed for HashiCorp Nomad clusters. It allows users to manage and interact with various elements of Nomad, including jobs, task groups, and allocations through command-line options or a user interface. The tool supports unique functionalities such as formatting output using Go templating and can be operated entirely through CLI for scripting purposes. Designed for ease of use, Trek also incorporates configuration file support for different environments, making it an essential utility for users managing Nomad clusters.
+      summary: Trek is a CLI/ncurses explorer for HashiCorp Nomad clusters.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project provides a CLI tool for exploring and managing HashiCorp Nomad clusters, which fits well under tools and utilities related to Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: Go
+      tags: cli, cluster-management, command-line, command-line-tool, distributed-systems, docker, explorer, go, golang, hashicorp, hashicorp-nomad, ncurses, nomad
+    - name: cvandal/nomad-ui
+      link: https://github.com/cvandal/nomad-ui
+      description: Nomad UI is a cross-platform user interface designed for HashiCorp's Nomad, built with .NET Core and React, providing users with an interactive way to manage their Nomad clusters. While the project is no longer under active development due to the introduction of a built-in UI in Nomad 0.7, it remains available for use. Users can run it with Docker, setting necessary environment variables for integration with their Nomad instance. The setup process involves various prerequisites like .NET Core, Node.js, and Yarn, and detailed instructions are provided for building and running the application using Docker.
+      summary: Nomad UI is a user interface for HashiCorp's Nomad designed to facilitate the management of Nomad clusters.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project is a UI specifically designed for HashiCorp's Nomad, indicating its purpose as a utility for managing or setting up Nomad infrastructure.
+      category: Infrastructure setup
+      category_confidence: 0.9
+      language: JavaScript
+      tags: .net-core, cluster-management, cross-platform, docker, dotnet, hashicorp, infrastructure-management, nomad, react, ui
+    - name: gschier/schier.co
+      link: https://github.com/gschier/schier.co
+      description: This project is the source code for gschier's personal website, schier.co, powered by Go, Tailwind, and Postgres. It hosts a blog that may contain various articles and documentation about the author's experiences and projects. The repository includes infrastructure setup using Docker and task management with wyp. While it serves more as a personal project, it could still provide insights and guides, fitting it under documentation.
+      summary: This project is the source code for gschier's personal website and blog powered by Go.
+      ignore: true
+      ignore_reason: The project does not mention HashiCorp Nomad, which is essential for consideration in the relevant categories.
+      category_rationale: The project is a personal website and blog that may include documentation or articles, aligning it with the documentation category despite lack of specific Nomad integration.
+      category: Documentation
+      category_confidence: 0.85
+      language: Go
+      tags: blog, development-tools, docker, go, nomad, personal-website, postgres, tailwind, tailwindcss, tasks-management, wyp
