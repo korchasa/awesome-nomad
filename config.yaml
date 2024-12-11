@@ -1,0 +1,20 @@
+query: topic:nomad stars:>30 archived:false
+ignore_reason: ALWAYS IGNORE PROJECTS IN THE DESCRIPTION OF WHICH HASHICORP NOMAD IS NOT MENTIONED!
+root:
+  categories:
+    - title: Documentation, examples, demos, and awesome lists
+    - title: Demo and Learning Resources
+    - title: Infrastructure setup
+      categories:
+        - title: Automation and Infrastructure Management
+        - title: Deployment and Cluster Setup
+        - title: Integrated Solutions and Applications
+        - title: Monitoring and Logging
+        - title: Tools and Utilities
+        - title: User Interfaces and Dashboards
+    - title: Ops tools
+    - title: DevOps tools
+    - title: CI / CD
+    - title: Integrations
+    - title: Plugins
+    - title: SDK
