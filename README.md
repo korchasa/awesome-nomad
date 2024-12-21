@@ -9,17 +9,17 @@ Pull requests with additional tools and projects are more than welcome!
 - [Documentation, examples, demos, and awesome lists](#documentation,-examples,-demos,-and-awesome-lists) (5)
 - [Demo and Learning Resources](#demo-and-learning-resources) (1)
 - [Infrastructure setup](#infrastructure-setup) 
-    - [Automation and Infrastructure Management](#automation-and-infrastructure-management) (13)
+    - [Automation and Infrastructure Management](#automation-and-infrastructure-management) (14)
     - [Deployment and Cluster Setup](#deployment-and-cluster-setup) (5)
     - [Integrated Solutions and Applications](#integrated-solutions-and-applications) (7)
     - [Monitoring and Logging](#monitoring-and-logging) (4)
     - [Tools and Utilities](#tools-and-utilities) (3)
     - [User Interfaces and Dashboards](#user-interfaces-and-dashboards) (2)
-- [Ops tools](#ops-tools) (13)
-- [DevOps tools](#devops-tools) (2)
+- [Ops tools](#ops-tools) (14)
+- [DevOps tools](#devops-tools) (3)
 - [CI / CD](#ci--cd) (1)
 - [Integrations](#integrations) (1)
-- [Plugins](#plugins) (9)
+- [Plugins](#plugins) (10)
 - [SDK](#sdk) (1)
 
 
@@ -42,6 +42,7 @@ Pull requests with additional tools and projects are more than welcome!
 ### Automation and Infrastructure Management
 
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) - Ansible-Nomad is an Ansible role that automates the installation and configuration of Nomad.
+- [bitrockteam/caravan](https://github.com/bitrockteam/caravan) - Caravan is a platform builder that utilizes the HashiCorp stack for infrastructure automation and management.
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) - A set of reusable Terraform modules for provisioning HashiCorp tools, including Nomad, on AWS.
 - [eschudt/hashistack-digitalocean](https://github.com/eschudt/hashistack-digitalocean) - Hashistack Digitalocean is a Terraform project for setting up a Consul and Nomad cluster on DigitalOcean.
 - [freeCodeCamp/infra](https://github.com/freeCodeCamp/infra) - This project provides infrastructure-as-code resources for managing freeCodeCamp.org's infrastructure.
@@ -103,6 +104,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [kencx/homelab](https://github.com/kencx/homelab) - This project automates the deployment and management of a Hashicorp cluster including Nomad, Consul, and Vault on Proxmox.
 - [mr-karan/nomctx](https://github.com/mr-karan/nomctx) - Nomctx is a tool for quickly switching between different Nomad clusters and namespaces.
 - [mxab/nacp](https://github.com/mxab/nacp) - NACP is an Admission Controller that acts as a proxy for the Nomad API, enabling validation and mutation of job data.
+- [ngine-io/chaotic](https://github.com/ngine-io/chaotic) - Chaotic is a tool for introducing chaos in cloud environments to test resilience by simulating failure scenarios.
 - [nomad-ops/nomad-ops](https://github.com/nomad-ops/nomad-ops) - Nomad-Ops is an operator for Nomad that reconciles running jobs with Git repositories.
 - [robinovitch61/wander](https://github.com/robinovitch61/wander) - Wander is a terminal application designed to interact with HashiCorp Nomad clusters.
 - [sepulworld/deadman-check](https://github.com/sepulworld/deadman-check) - Deadman Check is a monitoring tool for ensuring Nomad periodic jobs and Cron tasks run at expected intervals.
@@ -110,6 +112,7 @@ Pull requests with additional tools and projects are more than welcome!
 ## DevOps tools
 
 - [dokku/dokku](https://github.com/dokku/dokku) - Dokku is a Docker-powered platform-as-a-service that simplifies the process of building and managing app lifecycles.
+- [jonasvinther/nomad-gitops-operator](https://github.com/jonasvinther/nomad-gitops-operator) - Nomoporator is a GitOps operator designed to manage Hashicorp Nomad deployments using version control systems.
 - [star3am/hashiqube](https://github.com/star3am/hashiqube) - HashiQube is a DevOps development lab for running all HashiCorp products in Docker or Vagrant.
 
 ## CI / CD
@@ -123,6 +126,7 @@ Pull requests with additional tools and projects are more than welcome!
 ## Plugins
 
 - [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - This project is a Nomad task driver that enables the launching of containers using containerd directly.
+- [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A Nomad task driver plugin for managing and running IIS services on Windows.
 - [bbopt/NOMAD.jl](https://github.com/bbopt/NOMAD.jl) - NOMAD.jl is a Julia interface for the NOMAD blackbox optimization software.
 - [cneira/firecracker-task-driver](https://github.com/cneira/firecracker-task-driver) - A Nomad task driver for managing micro-vms using Firecracker.
 - [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) - This project is a Nomad task driver that leverages FreeBSD jails for container-like environments.
