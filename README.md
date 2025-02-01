@@ -13,7 +13,7 @@ Pull requests with additional tools and projects are more than welcome!
     - [Deployment and Cluster Setup](#deployment-and-cluster-setup) (5)
     - [Integrated Solutions and Applications](#integrated-solutions-and-applications) (7)
     - [Monitoring and Logging](#monitoring-and-logging) (4)
-    - [Tools and Utilities](#tools-and-utilities) (3)
+    - [Tools and Utilities](#tools-and-utilities) (4)
     - [User Interfaces and Dashboards](#user-interfaces-and-dashboards) (2)
 - [Ops tools](#ops-tools) (14)
 - [DevOps tools](#devops-tools) (3)
@@ -83,6 +83,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ### Tools and Utilities
 
+- [Kamilcuk/nomad-tools](https://github.com/Kamilcuk/nomad-tools) - A collection of command-line tools for improving interaction with HashiCorp Nomad scheduling solution.
 - [franckverrot/trek](https://github.com/franckverrot/trek) - Trek is a CLI/ncurses explorer for HashiCorp Nomad clusters.
 - [myENA/consul-backinator](https://github.com/myENA/consul-backinator) - Consul-backinator is a command line utility for backing up and restoring Consul data, including key-value pairs and ACL tokens.
 - [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Nomad-helper is a tool designed to enhance the usability of HashiCorp Nomad at scale.

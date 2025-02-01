@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Awesome List"
+theme = "hugo-theme-console"
+
+[params]
+  # Terminal theme settings
+  titleCutting = true
+  animateStyle = true
+  centerTheme = true
+  favicon = "/favicon.ico"
+
+  [[params.navlinks]]
+  name = "categories/"
+  url = "categories/"
+
+[taxonomies]
+  tag = "tags"
+
