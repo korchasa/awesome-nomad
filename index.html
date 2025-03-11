@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
+">
+    <meta name="keywords" content="HashiCorp Nomad, Orchestration, Scheduling, Multi-cloud, Distributed, Open-source, Scalability, Lightweight, Workload management, Infrastructure automation">
+    <meta name="author" content="Awesome Nomad Contributors">
+    <meta property="og:title" content="Awesome Nomad">
+    <meta property="og:description" content="A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
+">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://awesome-nomad.korchasa.dev">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Nomad">
+    <meta name="twitter:description" content="A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
+">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon and mobile icons -->
+    <link rel="icon" href="https://awesome-nomad.korchasa.dev/favicon.ico" sizes="any">
+    <link rel="icon" href="https://awesome-nomad.korchasa.dev/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://awesome-nomad.korchasa.dev/apple-touch-icon.png">
+    <link rel="manifest" href="https://awesome-nomad.korchasa.dev/manifest.webmanifest">
+    <meta name="theme-color" content="#0366d6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <title>Awesome Nomad</title>
+    <style>
+        body {
+            font-family: 'JetBrains Mono', 'Roboto Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 2rem 0 1.2rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 1rem 0 2rem;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin: 2.5rem 0 1.5rem;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.25em;
+            margin: 2rem 0 1rem;
+        }
+        h4 {
+            font-size: 1em;
+            margin: 1.5rem 0 0.8rem;
+        }
+        p {
+            margin: 0 0 1.5rem;
+            max-width: 85ch;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem;
+        }
+        li {
+            margin: 1rem 0;
+            padding-left: 1em;
+            position: relative;
+            line-height: 1.6;
+        }
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0366d6;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+            border-bottom: 1px dotted transparent;
+            transition: border-color 0.2s ease;
+        }
+        a:hover {
+            border-bottom-color: #0366d6;
+            text-decoration: none;
+        }
+        .note {
+            background-color: #e7f3fe;
+            border-left: 4px solid #007acc;
+            padding: 15px;
+            margin: 2.5rem 0;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+        .license {
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            padding: 1rem;
+            border-top: 1px solid #eee;
+        }
+        .stars {
+            color: #4d88ff;
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+        .language {
+            color: #6a737d;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-right: 8px;
+            margin-left: 3px;
+            background-color: #f1f1f1;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px 50px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header, nav, main, footer {
+            margin-bottom: 3rem;
+            padding: 0 15px;
+        }
+        section {
+            padding-bottom: 1rem;
+        }
+        section + section {
+            border-top: 1px dashed #eee;
+            padding-top: 1.5rem;
+        }
+        /* More compact TOC */
+        nav ul li {
+            margin: 0.3rem 0;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+        /* Nested TOC elements */
+        nav ul ul {
+            margin: 0.3rem 0 0.3rem 0.8rem;
+        }
+        /* Style for item count in TOC */
+        nav ul li span {
+            color: #666;
+            font-size: 0.85em;
+        }
+        main ul li:hover {
+            border-left-color: #007acc;
+            background: #f5f9ff;
+        }
+        /* Styles for static menu */
+        .main-menu {
+            margin-bottom: 1rem;
+        }
+        .main-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1rem;
+        }
+        .main-menu li {
+            margin: 0;
+        }
+        .main-menu a {
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .main-menu a:hover {
+            text-decoration: underline;
+        }
+        /* Styles for back to TOC link */
+        .back-to-toc {
+            text-align: right;
+            font-size: 0.85em;
+            margin-top: 1rem;
+        }
+        .back-to-toc a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .back-to-toc a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Awesome Nomad",
+        "description": "A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
+",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Awesome Nomad Contributors"
+        },
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "about": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Sharing contextual information with language models"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Exposing tools and capabilities to AI systems"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Building composable integrations and workflows"
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header role="banner">
+            <h1 id="awesome-ai-agents">Awesome Nomad</h1>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="https://github.com/korchasa/awesome-nomad">GitHub</a></li>
+                </ul>
+            </nav>
+            <div class="note" role="note" aria-label="Important note about this repository">
+                <strong>Note:</strong> This repository contains an automatically compiled list of frameworks, tools, and resources related to HashiCorp Nomad.
+            </div>
+            <div>
+                A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
+
+            </div>
+        </header>
+
+        <nav role="navigation" aria-labelledby="toc-heading">
+            <h2 id="toc-heading">Table of Contents</h2><ul>
+                <li style="margin-left: 0px;">
+                    <a href="#documentation,-examples,-demos,-and-awesome-lists" aria-label="Go to Documentation, examples, demos, and awesome lists section">Documentation, examples, demos, and awesome lists</a> <span aria-label="5 items">(5)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#demo-and-learning-resources" aria-label="Go to Demo and Learning Resources section">Demo and Learning Resources</a> <span aria-label="1 items">(1)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#infrastructure-setup" aria-label="Go to Infrastructure setup section">Infrastructure setup</a> 
+                    <ul>
+                <li style="margin-left: 15px;">
+                    <a href="#automation-and-infrastructure-management" aria-label="Go to Automation and Infrastructure Management section">Automation and Infrastructure Management</a> <span aria-label="14 items">(14)</span>
+                    </li>
+            
+                <li style="margin-left: 15px;">
+                    <a href="#deployment-and-cluster-setup" aria-label="Go to Deployment and Cluster Setup section">Deployment and Cluster Setup</a> <span aria-label="5 items">(5)</span>
+                    </li>
+            
+                <li style="margin-left: 15px;">
+                    <a href="#integrated-solutions-and-applications" aria-label="Go to Integrated Solutions and Applications section">Integrated Solutions and Applications</a> <span aria-label="7 items">(7)</span>
+                    </li>
+            
+                <li style="margin-left: 15px;">
+                    <a href="#monitoring-and-logging" aria-label="Go to Monitoring and Logging section">Monitoring and Logging</a> <span aria-label="4 items">(4)</span>
+                    </li>
+            
+                <li style="margin-left: 15px;">
+                    <a href="#tools-and-utilities" aria-label="Go to Tools and Utilities section">Tools and Utilities</a> <span aria-label="4 items">(4)</span>
+                    </li>
+            
+                <li style="margin-left: 15px;">
+                    <a href="#user-interfaces-and-dashboards" aria-label="Go to User Interfaces and Dashboards section">User Interfaces and Dashboards</a> <span aria-label="2 items">(2)</span>
+                    </li>
+            </ul></li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#ops-tools" aria-label="Go to Ops tools section">Ops tools</a> <span aria-label="14 items">(14)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#devops-tools" aria-label="Go to DevOps tools section">DevOps tools</a> <span aria-label="3 items">(3)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#ci-/-cd" aria-label="Go to CI / CD section">CI / CD</a> <span aria-label="1 items">(1)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#integrations" aria-label="Go to Integrations section">Integrations</a> <span aria-label="1 items">(1)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#plugins" aria-label="Go to Plugins section">Plugins</a> <span aria-label="10 items">(10)</span>
+                    </li>
+            
+                <li style="margin-left: 0px;">
+                    <a href="#sdk" aria-label="Go to SDK section">SDK</a> <span aria-label="1 items">(1)</span>
+                    </li>
+            </ul>
+        </nav>
+
+        <main role="main">
+            <section aria-labelledby="documentation,-examples,-demos,-and-awesome-lists"><h2 id="documentation,-examples,-demos,-and-awesome-lists">Documentation, examples, demos, and awesome lists</h2>
+                <ul aria-label="List of Documentation, examples, demos, and awesome lists items">
+                    <li>
+                        <a href="https://github.com/jippi/awesome-nomad" aria-label="jippi/awesome-nomad - 879 stars, " target="_blank" rel="noopener">jippi/awesome-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 879</span>
+                        <span class="language" aria-hidden="true"></span> -
+                        <span>Awesome Nomad is a curated list of various tools and utilities that enhance the usability and functionality of HashiCorp Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mentoriaiac/awesome-devops" aria-label="mentoriaiac/awesome-devops - 53 stars, " target="_blank" rel="noopener">mentoriaiac/awesome-devops</a>
+                        <span class="stars" aria-hidden="true">⭐ 53</span>
+                        <span class="language" aria-hidden="true"></span> -
+                        <span>A curated list of resources on DevOps fundamentals and tools including Docker, Kubernetes, and Hashicorp Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mr-karan/nomad-events-sink" aria-label="mr-karan/nomad-events-sink - 52 stars, Go" target="_blank" rel="noopener">mr-karan/nomad-events-sink</a>
+                        <span class="stars" aria-hidden="true">⭐ 52</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomad Events Sink is an agent for collecting and processing Nomad events to external sinks like HTTP.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nairnavin/practical-nomad-consul" aria-label="nairnavin/practical-nomad-consul - 58 stars, HCL" target="_blank" rel="noopener">nairnavin/practical-nomad-consul</a>
+                        <span class="stars" aria-hidden="true">⭐ 58</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This project is a detailed tutorial for setting up a multi-tier application using Nomad and Consul.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/romantomjak/ansible-roles" aria-label="romantomjak/ansible-roles - 35 stars, Jinja" target="_blank" rel="noopener">romantomjak/ansible-roles</a>
+                        <span class="stars" aria-hidden="true">⭐ 35</span>
+                        <span class="language" aria-hidden="true">Jinja</span> -
+                        <span>This repository offers a collection of Ansible roles and example playbooks for automating setup tasks on Debian-based hosts.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="demo-and-learning-resources"><h2 id="demo-and-learning-resources">Demo and Learning Resources</h2>
+                <ul aria-label="List of Demo and Learning Resources items">
+                    <li>
+                        <a href="https://github.com/fhemberger/nomad-demo" aria-label="fhemberger/nomad-demo - 130 stars, HCL" target="_blank" rel="noopener">fhemberger/nomad-demo</a>
+                        <span class="stars" aria-hidden="true">⭐ 130</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This project offers a Vagrant-based demo for integrating and running Hashicorp Nomad with other HashiCorp tools.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="infrastructure-setup"><h2 id="infrastructure-setup">Infrastructure setup</h2>
+                
+                
+            <section aria-labelledby="automation-and-infrastructure-management"><h3 id="automation-and-infrastructure-management">Automation and Infrastructure Management</h3>
+                <ul aria-label="List of Automation and Infrastructure Management items">
+                    <li>
+                        <a href="https://github.com/ansible-community/ansible-nomad" aria-label="ansible-community/ansible-nomad - 304 stars, Jinja" target="_blank" rel="noopener">ansible-community/ansible-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 304</span>
+                        <span class="language" aria-hidden="true">Jinja</span> -
+                        <span>Ansible-Nomad is an Ansible role that automates the installation and configuration of Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bitrockteam/caravan" aria-label="bitrockteam/caravan - 49 stars, Shell" target="_blank" rel="noopener">bitrockteam/caravan</a>
+                        <span class="stars" aria-hidden="true">⭐ 49</span>
+                        <span class="language" aria-hidden="true">Shell</span> -
+                        <span>Caravan is a platform builder that utilizes the HashiCorp stack for infrastructure automation and management.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dsaidgovsg/terraform-modules" aria-label="dsaidgovsg/terraform-modules - 79 stars, HCL" target="_blank" rel="noopener">dsaidgovsg/terraform-modules</a>
+                        <span class="stars" aria-hidden="true">⭐ 79</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>A set of reusable Terraform modules for provisioning HashiCorp tools, including Nomad, on AWS.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eschudt/hashistack-digitalocean" aria-label="eschudt/hashistack-digitalocean - 47 stars, HCL" target="_blank" rel="noopener">eschudt/hashistack-digitalocean</a>
+                        <span class="stars" aria-hidden="true">⭐ 47</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>Hashistack Digitalocean is a Terraform project for setting up a Consul and Nomad cluster on DigitalOcean.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/freeCodeCamp/infra" aria-label="freeCodeCamp/infra - 63 stars, HCL" target="_blank" rel="noopener">freeCodeCamp/infra</a>
+                        <span class="stars" aria-hidden="true">⭐ 63</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This project provides infrastructure-as-code resources for managing freeCodeCamp.org's infrastructure.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/fwkz/dill" aria-label="fwkz/dill - 44 stars, Go" target="_blank" rel="noopener">fwkz/dill</a>
+                        <span class="stars" aria-hidden="true">⭐ 44</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Dill is a cloud-ready L4 TCP proxy that improves load balancing and routing through dynamic listeners.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hashicorp/levant" aria-label="hashicorp/levant - 835 stars, Go" target="_blank" rel="noopener">hashicorp/levant</a>
+                        <span class="stars" aria-hidden="true">⭐ 835</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Levant is an open-source tool that offers templating and deployment capabilities for HashiCorp Nomad jobs.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hyperbadger/nomad-pipeline" aria-label="hyperbadger/nomad-pipeline - 42 stars, Go" target="_blank" rel="noopener">hyperbadger/nomad-pipeline</a>
+                        <span class="stars" aria-hidden="true">⭐ 42</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomad Pipeline is a tool that enables the execution of pipeline-style workloads in HashiCorp's Nomad with job dependencies management.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kadalu/kadalu" aria-label="kadalu/kadalu - 722 stars, Python" target="_blank" rel="noopener">kadalu/kadalu</a>
+                        <span class="stars" aria-hidden="true">⭐ 722</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>Kadalu is a lightweight persistent storage solution for Kubernetes, OpenShift, and Nomad utilizing GlusterFS.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mr-karan/homelab" aria-label="mr-karan/homelab - 264 stars, HTML" target="_blank" rel="noopener">mr-karan/homelab</a>
+                        <span class="stars" aria-hidden="true">⭐ 264</span>
+                        <span class="language" aria-hidden="true">HTML</span> -
+                        <span>This project provides infrastructure as code and setup scripts for a personal home server using Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/multani/docker-nomad" aria-label="multani/docker-nomad - 96 stars, Dockerfile" target="_blank" rel="noopener">multani/docker-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 96</span>
+                        <span class="language" aria-hidden="true">Dockerfile</span> -
+                        <span>This project provides a Docker image for running Hashicorp Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/picatz/terraform-google-nomad" aria-label="picatz/terraform-google-nomad - 78 stars, HCL" target="_blank" rel="noopener">picatz/terraform-google-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 78</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>Terraform module for setting up Nomad clusters with Consul on Google Cloud Platform.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/sagarrakshe/nomad-dtree" aria-label="sagarrakshe/nomad-dtree - 50 stars, Go" target="_blank" rel="noopener">sagarrakshe/nomad-dtree</a>
+                        <span class="stars" aria-hidden="true">⭐ 50</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>nomad-dtree is a tool that facilitates dependency management between Nomad jobs.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/tristanpemble/nix-nomad" aria-label="tristanpemble/nix-nomad - 70 stars, Nix" target="_blank" rel="noopener">tristanpemble/nix-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 70</span>
+                        <span class="language" aria-hidden="true">Nix</span> -
+                        <span>A tool for generating HashiCorp Nomad job definitions using Nix.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="deployment-and-cluster-setup"><h3 id="deployment-and-cluster-setup">Deployment and Cluster Setup</h3>
+                <ul aria-label="List of Deployment and Cluster Setup items">
+                    <li>
+                        <a href="https://github.com/astro/skyflake" aria-label="astro/skyflake - 214 stars, Nix" target="_blank" rel="noopener">astro/skyflake</a>
+                        <span class="stars" aria-hidden="true">⭐ 214</span>
+                        <span class="language" aria-hidden="true">Nix</span> -
+                        <span>Skyflake is a hyperconverged infrastructure solution for NixOS that utilizes Nomad for managing virtual machines.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/efbar/hashicorp-labs" aria-label="efbar/hashicorp-labs - 34 stars, HCL" target="_blank" rel="noopener">efbar/hashicorp-labs</a>
+                        <span class="stars" aria-hidden="true">⭐ 34</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>Hashicorp Labs simplifies the deployment of a local Hashicorp cluster for testing applications with Vault, Consul, and Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/internetarchive/hind" aria-label="internetarchive/hind - 58 stars, Shell" target="_blank" rel="noopener">internetarchive/hind</a>
+                        <span class="stars" aria-hidden="true">⭐ 58</span>
+                        <span class="language" aria-hidden="true">Shell</span> -
+                        <span>HinD simplifies the setup of a Nomad cluster with Consul and Caddy server in a single Docker container.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jsiebens/hashi-up" aria-label="jsiebens/hashi-up - 687 stars, Go" target="_blank" rel="noopener">jsiebens/hashi-up</a>
+                        <span class="stars" aria-hidden="true">⭐ 687</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>hashi-up is a utility for quickly installing HashiCorp Nomad, Consul, or Vault on remote Linux hosts over SSH.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/zerodha/nomad-cluster-setup" aria-label="zerodha/nomad-cluster-setup - 149 stars, HCL" target="_blank" rel="noopener">zerodha/nomad-cluster-setup</a>
+                        <span class="stars" aria-hidden="true">⭐ 149</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This project provides Terraform modules for deploying a HashiCorp Nomad cluster on AWS.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="integrated-solutions-and-applications"><h3 id="integrated-solutions-and-applications">Integrated Solutions and Applications</h3>
+                <ul aria-label="List of Integrated Solutions and Applications items">
+                    <li>
+                        <a href="https://github.com/FRosner/cluster-broccoli" aria-label="FRosner/cluster-broccoli - 60 stars, Scala" target="_blank" rel="noopener">FRosner/cluster-broccoli</a>
+                        <span class="stars" aria-hidden="true">⭐ 60</span>
+                        <span class="language" aria-hidden="true">Scala</span> -
+                        <span>Cluster Broccoli is a self-service platform for managing Nomad jobs through a RESTful web service and UI.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dokku/dokku-scheduler-nomad" aria-label="dokku/dokku-scheduler-nomad - 34 stars, Shell" target="_blank" rel="noopener">dokku/dokku-scheduler-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 34</span>
+                        <span class="language" aria-hidden="true">Shell</span> -
+                        <span>dokku-scheduler-nomad is a plugin for integrating Dokku with Nomad to deploy applications.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eBayClassifiedsGroup/KomPaaS" aria-label="eBayClassifiedsGroup/KomPaaS - 47 stars, " target="_blank" rel="noopener">eBayClassifiedsGroup/KomPaaS</a>
+                        <span class="stars" aria-hidden="true">⭐ 47</span>
+                        <span class="language" aria-hidden="true"></span> -
+                        <span>KomPaaS is a compact PaaS solution utilizing Nomad, Consul, and Fabio for efficient deployment.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kangaroot/rootstack-devfactory" aria-label="kangaroot/rootstack-devfactory - 40 stars, Jinja" target="_blank" rel="noopener">kangaroot/rootstack-devfactory</a>
+                        <span class="stars" aria-hidden="true">⭐ 40</span>
+                        <span class="language" aria-hidden="true">Jinja</span> -
+                        <span>Devfactory is an integrated solution that utilizes Hashicorp tools to provide quick VM and container runtime environments.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/thangchung/coffeeshop-modular" aria-label="thangchung/coffeeshop-modular - 48 stars, C#" target="_blank" rel="noopener">thangchung/coffeeshop-modular</a>
+                        <span class="stars" aria-hidden="true">⭐ 48</span>
+                        <span class="language" aria-hidden="true">C#</span> -
+                        <span>A modular .NET coffee shop application that can be started with docker-compose and integrates with HashiCorp Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/thangchung/coffeeshop-on-nomad" aria-label="thangchung/coffeeshop-on-nomad - 114 stars, C#" target="_blank" rel="noopener">thangchung/coffeeshop-on-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 114</span>
+                        <span class="language" aria-hidden="true">C#</span> -
+                        <span>This .NET coffeeshop application showcases the use of Docker, Nomad, and Consul Connect for running microservices.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/thangchung/go-coffeeshop" aria-label="thangchung/go-coffeeshop - 4207 stars, Go" target="_blank" rel="noopener">thangchung/go-coffeeshop</a>
+                        <span class="stars" aria-hidden="true">⭐ 4207</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>A practical event-driven microservices demo built with Golang, utilizing Nomad, Consul Connect, Vault, and Terraform for deployment.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="monitoring-and-logging"><h3 id="monitoring-and-logging">Monitoring and Logging</h3>
+                <ul aria-label="List of Monitoring and Logging items">
+                    <li>
+                        <a href="https://github.com/jrasell/nomad-toast" aria-label="jrasell/nomad-toast - 49 stars, Go" target="_blank" rel="noopener">jrasell/nomad-toast</a>
+                        <span class="stars" aria-hidden="true">⭐ 49</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomad Toast is a tool for receiving notifications based on HashiCorp Nomad events.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mr-karan/nomad-monitoring" aria-label="mr-karan/nomad-monitoring - 59 stars, HCL" target="_blank" rel="noopener">mr-karan/nomad-monitoring</a>
+                        <span class="stars" aria-hidden="true">⭐ 59</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>A complete monitoring solution for Nomad clusters using Grafana dashboards and jobspecs.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mr-karan/nomad-vector-logger" aria-label="mr-karan/nomad-vector-logger - 56 stars, Go" target="_blank" rel="noopener">mr-karan/nomad-vector-logger</a>
+                        <span class="stars" aria-hidden="true">⭐ 56</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomad-vector-logger is a daemon that generates Vector configuration files for enriched logging in Nomad clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/seatgeek/nomad-firehose" aria-label="seatgeek/nomad-firehose - 114 stars, Go" target="_blank" rel="noopener">seatgeek/nomad-firehose</a>
+                        <span class="stars" aria-hidden="true">⭐ 114</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>The `nomad-firehose` is a monitoring tool for changes in Nomad job, allocation, nodes, and evaluations.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="tools-and-utilities"><h3 id="tools-and-utilities">Tools and Utilities</h3>
+                <ul aria-label="List of Tools and Utilities items">
+                    <li>
+                        <a href="https://github.com/Kamilcuk/nomad-tools" aria-label="Kamilcuk/nomad-tools - 33 stars, Python" target="_blank" rel="noopener">Kamilcuk/nomad-tools</a>
+                        <span class="stars" aria-hidden="true">⭐ 33</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>A collection of command-line tools for improving interaction with HashiCorp Nomad scheduling solution.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/franckverrot/trek" aria-label="franckverrot/trek - 33 stars, Go" target="_blank" rel="noopener">franckverrot/trek</a>
+                        <span class="stars" aria-hidden="true">⭐ 33</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Trek is a CLI/ncurses explorer for HashiCorp Nomad clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/myENA/consul-backinator" aria-label="myENA/consul-backinator - 225 stars, Go" target="_blank" rel="noopener">myENA/consul-backinator</a>
+                        <span class="stars" aria-hidden="true">⭐ 225</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Consul-backinator is a command line utility for backing up and restoring Consul data, including key-value pairs and ACL tokens.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/seatgeek/nomad-helper" aria-label="seatgeek/nomad-helper - 156 stars, Go" target="_blank" rel="noopener">seatgeek/nomad-helper</a>
+                        <span class="stars" aria-hidden="true">⭐ 156</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomad-helper is a tool designed to enhance the usability of HashiCorp Nomad at scale.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="user-interfaces-and-dashboards"><h3 id="user-interfaces-and-dashboards">User Interfaces and Dashboards</h3>
+                <ul aria-label="List of User Interfaces and Dashboards items">
+                    <li>
+                        <a href="https://github.com/cvandal/nomad-ui" aria-label="cvandal/nomad-ui - 32 stars, JavaScript" target="_blank" rel="noopener">cvandal/nomad-ui</a>
+                        <span class="stars" aria-hidden="true">⭐ 32</span>
+                        <span class="language" aria-hidden="true">JavaScript</span> -
+                        <span>Nomad UI is a user interface for HashiCorp's Nomad designed to facilitate the management of Nomad clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hashicorp/damon" aria-label="hashicorp/damon - 442 stars, Go" target="_blank" rel="noopener">hashicorp/damon</a>
+                        <span class="stars" aria-hidden="true">⭐ 442</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Damon is a terminal dashboard for effectively interacting with HashiCorp Nomad.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            </section>
+            
+            <section aria-labelledby="ops-tools"><h2 id="ops-tools">Ops tools</h2>
+                <ul aria-label="List of Ops tools items">
+                    <li>
+                        <a href="https://github.com/42wim/nomadctld" aria-label="42wim/nomadctld - 68 stars, Go" target="_blank" rel="noopener">42wim/nomadctld</a>
+                        <span class="stars" aria-hidden="true">⭐ 68</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>nomadctld is an SSH server facilitating interaction with HashiCorp Nomad clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/aldoborrero/hashi-homelab" aria-label="aldoborrero/hashi-homelab - 232 stars, Shell" target="_blank" rel="noopener">aldoborrero/hashi-homelab</a>
+                        <span class="stars" aria-hidden="true">⭐ 232</span>
+                        <span class="language" aria-hidden="true">Shell</span> -
+                        <span>Hashi Homelab is a repository that provides Nomad recipes for various open source projects designed for use on a Nomad, Consul, and Vault-enabled Intel Nuc cluster.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/anubhavmishra/envoy-consul-sds" aria-label="anubhavmishra/envoy-consul-sds - 68 stars, Go" target="_blank" rel="noopener">anubhavmishra/envoy-consul-sds</a>
+                        <span class="stars" aria-hidden="true">⭐ 68</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Envoy Consul Service Discovery Service integrates Envoy with Consul and Nomad to provide service discovery functionalities.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/assareh/tfc-agent" aria-label="assareh/tfc-agent - 65 stars, HCL" target="_blank" rel="noopener">assareh/tfc-agent</a>
+                        <span class="stars" aria-hidden="true">⭐ 65</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This repository provides examples for using the Terraform Cloud Agent, a remote runner designed for Terraform Cloud Business and Enterprise, with specific implementations for Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/cosmonic-labs/netreap" aria-label="cosmonic-labs/netreap - 135 stars, Go" target="_blank" rel="noopener">cosmonic-labs/netreap</a>
+                        <span class="stars" aria-hidden="true">⭐ 135</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Netreap is a non-Kubernetes tool for managing Cilium endpoints across a Nomad cluster.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/davidsbond/homad" aria-label="davidsbond/homad - 43 stars, HCL" target="_blank" rel="noopener">davidsbond/homad</a>
+                        <span class="stars" aria-hidden="true">⭐ 43</span>
+                        <span class="language" aria-hidden="true">HCL</span> -
+                        <span>This project manages a HashiCorp Nomad deployment for a personal home lab using Terraform, Vault, and Consul for high availability.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/istio/istio" aria-label="istio/istio - 36560 stars, Go" target="_blank" rel="noopener">istio/istio</a>
+                        <span class="stars" aria-hidden="true">⭐ 36560</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Istio is an open source service mesh that connects, secures, controls, and observes services.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kencx/homelab" aria-label="kencx/homelab - 151 stars, YAML" target="_blank" rel="noopener">kencx/homelab</a>
+                        <span class="stars" aria-hidden="true">⭐ 151</span>
+                        <span class="language" aria-hidden="true">YAML</span> -
+                        <span>This project automates the deployment and management of a Hashicorp cluster including Nomad, Consul, and Vault on Proxmox.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mr-karan/nomctx" aria-label="mr-karan/nomctx - 54 stars, Go" target="_blank" rel="noopener">mr-karan/nomctx</a>
+                        <span class="stars" aria-hidden="true">⭐ 54</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomctx is a tool for quickly switching between different Nomad clusters and namespaces.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mxab/nacp" aria-label="mxab/nacp - 40 stars, Go" target="_blank" rel="noopener">mxab/nacp</a>
+                        <span class="stars" aria-hidden="true">⭐ 40</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>NACP is an Admission Controller that acts as a proxy for the Nomad API, enabling validation and mutation of job data.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ngine-io/chaotic" aria-label="ngine-io/chaotic - 69 stars, Python" target="_blank" rel="noopener">ngine-io/chaotic</a>
+                        <span class="stars" aria-hidden="true">⭐ 69</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>Chaotic is a tool for introducing chaos in cloud environments to test resilience by simulating failure scenarios.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nomad-ops/nomad-ops" aria-label="nomad-ops/nomad-ops - 74 stars, TypeScript" target="_blank" rel="noopener">nomad-ops/nomad-ops</a>
+                        <span class="stars" aria-hidden="true">⭐ 74</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Nomad-Ops is an operator for Nomad that reconciles running jobs with Git repositories.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/robinovitch61/wander" aria-label="robinovitch61/wander - 456 stars, Go" target="_blank" rel="noopener">robinovitch61/wander</a>
+                        <span class="stars" aria-hidden="true">⭐ 456</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Wander is a terminal application designed to interact with HashiCorp Nomad clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/sepulworld/deadman-check" aria-label="sepulworld/deadman-check - 57 stars, Ruby" target="_blank" rel="noopener">sepulworld/deadman-check</a>
+                        <span class="stars" aria-hidden="true">⭐ 57</span>
+                        <span class="language" aria-hidden="true">Ruby</span> -
+                        <span>Deadman Check is a monitoring tool for ensuring Nomad periodic jobs and Cron tasks run at expected intervals.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="devops-tools"><h2 id="devops-tools">DevOps tools</h2>
+                <ul aria-label="List of DevOps tools items">
+                    <li>
+                        <a href="https://github.com/dokku/dokku" aria-label="dokku/dokku - 30068 stars, Shell" target="_blank" rel="noopener">dokku/dokku</a>
+                        <span class="stars" aria-hidden="true">⭐ 30068</span>
+                        <span class="language" aria-hidden="true">Shell</span> -
+                        <span>Dokku is a Docker-powered platform-as-a-service that simplifies the process of building and managing app lifecycles.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jonasvinther/nomad-gitops-operator" aria-label="jonasvinther/nomad-gitops-operator - 83 stars, Go" target="_blank" rel="noopener">jonasvinther/nomad-gitops-operator</a>
+                        <span class="stars" aria-hidden="true">⭐ 83</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Nomoporator is a GitOps operator designed to manage Hashicorp Nomad deployments using version control systems.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/star3am/hashiqube" aria-label="star3am/hashiqube - 110 stars, JavaScript" target="_blank" rel="noopener">star3am/hashiqube</a>
+                        <span class="stars" aria-hidden="true">⭐ 110</span>
+                        <span class="language" aria-hidden="true">JavaScript</span> -
+                        <span>HashiQube is a DevOps development lab for running all HashiCorp products in Docker or Vagrant.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="ci-/-cd"><h2 id="ci-/-cd">CI / CD</h2>
+                <ul aria-label="List of CI / CD items">
+                    <li>
+                        <a href="https://github.com/jrasell/nomadfiles" aria-label="jrasell/nomadfiles - 125 stars, Groovy" target="_blank" rel="noopener">jrasell/nomadfiles</a>
+                        <span class="stars" aria-hidden="true">⭐ 125</span>
+                        <span class="language" aria-hidden="true">Groovy</span> -
+                        <span>A collection of Nomad job files for deploying applications to a cluster, featuring continuous delivery examples.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="integrations"><h2 id="integrations">Integrations</h2>
+                <ul aria-label="List of Integrations items">
+                    <li>
+                        <a href="https://github.com/crazy-max/diun" aria-label="crazy-max/diun - 3417 stars, Go" target="_blank" rel="noopener">crazy-max/diun</a>
+                        <span class="stars" aria-hidden="true">⭐ 3417</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Diun is a CLI application that notifies users when a Docker image is updated on a registry.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="plugins"><h2 id="plugins">Plugins</h2>
+                <ul aria-label="List of Plugins items">
+                    <li>
+                        <a href="https://github.com/Roblox/nomad-driver-containerd" aria-label="Roblox/nomad-driver-containerd - 224 stars, Go" target="_blank" rel="noopener">Roblox/nomad-driver-containerd</a>
+                        <span class="stars" aria-hidden="true">⭐ 224</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>This project is a Nomad task driver that enables the launching of containers using containerd directly.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Roblox/nomad-driver-iis" aria-label="Roblox/nomad-driver-iis - 55 stars, Go" target="_blank" rel="noopener">Roblox/nomad-driver-iis</a>
+                        <span class="stars" aria-hidden="true">⭐ 55</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>A Nomad task driver plugin for managing and running IIS services on Windows.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/bbopt/NOMAD.jl" aria-label="bbopt/NOMAD.jl - 48 stars, Julia" target="_blank" rel="noopener">bbopt/NOMAD.jl</a>
+                        <span class="stars" aria-hidden="true">⭐ 48</span>
+                        <span class="language" aria-hidden="true">Julia</span> -
+                        <span>NOMAD.jl is a Julia interface for the NOMAD blackbox optimization software.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/cneira/firecracker-task-driver" aria-label="cneira/firecracker-task-driver - 148 stars, Go" target="_blank" rel="noopener">cneira/firecracker-task-driver</a>
+                        <span class="stars" aria-hidden="true">⭐ 148</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>A Nomad task driver for managing micro-vms using Firecracker.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/cneira/jail-task-driver" aria-label="cneira/jail-task-driver - 38 stars, Go" target="_blank" rel="noopener">cneira/jail-task-driver</a>
+                        <span class="stars" aria-hidden="true">⭐ 38</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>This project is a Nomad task driver that leverages FreeBSD jails for container-like environments.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hashicorp/nomad-driver-podman" aria-label="hashicorp/nomad-driver-podman - 238 stars, Go" target="_blank" rel="noopener">hashicorp/nomad-driver-podman</a>
+                        <span class="stars" aria-hidden="true">⭐ 238</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>A Nomad task driver plugin that helps in sandboxing workloads in Podman containers.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hashicorp/terraform-provider-nomad" aria-label="hashicorp/terraform-provider-nomad - 146 stars, Go" target="_blank" rel="noopener">hashicorp/terraform-provider-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 146</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>The HashiCorp Terraform provider for Nomad enables management of Nomad resources using Terraform.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jsiebens/nomad-droplets-autoscaler" aria-label="jsiebens/nomad-droplets-autoscaler - 0 stars, Go" target="_blank" rel="noopener">jsiebens/nomad-droplets-autoscaler</a>
+                        <span class="stars" aria-hidden="true">⭐ 0</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>This project is a plugin for HashiCorp Nomad that allows for the automated scaling of DigitalOcean Droplets.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jvirtanen/vim-hcl" aria-label="jvirtanen/vim-hcl - 137 stars, Vim script" target="_blank" rel="noopener">jvirtanen/vim-hcl</a>
+                        <span class="stars" aria-hidden="true">⭐ 137</span>
+                        <span class="language" aria-hidden="true">Vim script</span> -
+                        <span>This project provides syntax highlighting for the HashiCorp Configuration Language (HCL) used in various HashiCorp tools, including Nomad.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mayuresh82/gocast" aria-label="mayuresh82/gocast - 91 stars, Go" target="_blank" rel="noopener">mayuresh82/gocast</a>
+                        <span class="stars" aria-hidden="true">⭐ 91</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>GoCast is a tool for managing controlled BGP route announcements from a host.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+            <section aria-labelledby="sdk"><h2 id="sdk">SDK</h2>
+                <ul aria-label="List of SDK items">
+                    <li>
+                        <a href="https://github.com/jrxFive/python-nomad" aria-label="jrxFive/python-nomad - 142 stars, Python" target="_blank" rel="noopener">jrxFive/python-nomad</a>
+                        <span class="stars" aria-hidden="true">⭐ 142</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>A Python client library for Hashicorp Nomad that enables easy interaction with the Nomad API.</span>
+                    </li>
+                </ul>
+                <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
+                </section>
+            
+        </main>
+
+        <footer role="contentinfo">
+            <div class="license">
+                <h2 id="license">License</h2>
+                <a href="https://creativecommons.org/publicdomain/zero/1.0/" aria-label="Creative Commons Zero License">
+                    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="CC0 License" width="88" height="31" loading="lazy">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
