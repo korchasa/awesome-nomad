@@ -41,7 +41,7 @@ Table of Contents:
 
 ## Documentation, examples, demos, and awesome lists
 
-- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (★884 ) - Awesome Nomad is a curated list of various tools and utilities that enhance the usability and functionality of HashiCorp Nomad.
+- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (★885 ) - Awesome Nomad is a curated list of various tools and utilities that enhance the usability and functionality of HashiCorp Nomad.
 - [mentoriaiac/awesome-devops](https://github.com/mentoriaiac/awesome-devops) (★53 ) - A curated list of resources on DevOps fundamentals and tools including Docker, Kubernetes, and Hashicorp Nomad.
 - [mr-karan/nomad-events-sink](https://github.com/mr-karan/nomad-events-sink) (★52 Go) - Nomad Events Sink is an agent for collecting and processing Nomad events to external sinks like HTTP.
 - [nairnavin/practical-nomad-consul](https://github.com/nairnavin/practical-nomad-consul) (★59 HCL) - This project is a detailed tutorial for setting up a multi-tier application using Nomad and Consul.
@@ -125,7 +125,7 @@ Table of Contents:
 - [assareh/tfc-agent](https://github.com/assareh/tfc-agent) (★65 HCL) - This repository provides examples for using the Terraform Cloud Agent, a remote runner designed for Terraform Cloud Business and Enterprise, with specific implementations for Nomad.
 - [cosmonic-labs/netreap](https://github.com/cosmonic-labs/netreap) (★136 Go) - Netreap is a non-Kubernetes tool for managing Cilium endpoints across a Nomad cluster.
 - [davidsbond/homad](https://github.com/davidsbond/homad) (★43 HCL) - This project manages a HashiCorp Nomad deployment for a personal home lab using Terraform, Vault, and Consul for high availability.
-- [istio/istio](https://github.com/istio/istio) (★36701 Go) - Istio is an open source service mesh that connects, secures, controls, and observes services.
+- [istio/istio](https://github.com/istio/istio) (★36702 Go) - Istio is an open source service mesh that connects, secures, controls, and observes services.
 - [kencx/homelab](https://github.com/kencx/homelab) (★157 YAML) - This project automates the deployment and management of a Hashicorp cluster including Nomad, Consul, and Vault on Proxmox.
 - [mr-karan/nomctx](https://github.com/mr-karan/nomctx) (★54 Go) - Nomctx is a tool for quickly switching between different Nomad clusters and namespaces.
 - [mxab/nacp](https://github.com/mxab/nacp) (★43 Go) - NACP is an Admission Controller that acts as a proxy for the Nomad API, enabling validation and mutation of job data.
