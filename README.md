@@ -25,7 +25,7 @@ Table of Contents:
 ## Documentation, examples, demos, and awesome lists
 
 - [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) (68 Go) - Envoy-consul-sds is a service that implements Envoy's Service Discovery Service API on top of Consul's health endpoint API to enable dynamic service discovery and proxying for applications running on HashiCorp Nomad.
-- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (914 ) - A curated list of tools, plugins, utilities, and resources for enhancing and managing HashiCorp Nomad deployments and workflows.
+- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (915 ) - A curated list of tools, plugins, utilities, and resources for enhancing and managing HashiCorp Nomad deployments and workflows.
 - [thangchung/coffeeshop-modular](https://github.com/thangchung/coffeeshop-modular) (51 C#) - .NET coffee shop application with a modular architecture, containerized and deployable using HashiCorp Nomad.
 
 ## Demo and Learning Resources
@@ -34,20 +34,20 @@ Table of Contents:
 - [nairnavin/practical-nomad-consul](https://github.com/nairnavin/practical-nomad-consul) (61 HCL) - A practical tutorial and guide for deploying a realistic multi-tier Spring Boot Petclinic application using HashiCorp Nomad and Consul with service mesh, ingress and terminating gateways, load balancing, and secure communication.
 - [star3am/hashiqube](https://github.com/star3am/hashiqube) (137 JavaScript) - HashiQube is an all-in-one hands-on DevOps lab that runs all HashiCorp products including Nomad, providing a versatile environment for learning, practicing, and demonstrating infrastructure and security tools in cloud or local setups.
 - [thangchung/coffeeshop-on-nomad](https://github.com/thangchung/coffeeshop-on-nomad) (116 C#) - A .NET microservices coffeeshop application deployed and orchestrated on HashiCorp Nomad with Consul Connect for service mesh and Docker containers.
-- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) (4357 Go) - go-coffeeshop is an event-driven microservices demo application built with Golang, deployed using HashiCorp Nomad, Consul Connect, Vault, and Terraform, demonstrating modern microservices architecture and deployment practices.
+- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) (4360 Go) - go-coffeeshop is an event-driven microservices demo application built with Golang, deployed using HashiCorp Nomad, Consul Connect, Vault, and Terraform, demonstrating modern microservices architecture and deployment practices.
 
 ## Infrastructure setup
 
 ### Automation and Infrastructure Management
 
-- [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) (316 Jinja) - Ansible-Nomad is an Ansible role that automates the installation, configuration, and management of HashiCorp Nomad clusters, supporting both development and production environments.
-- [astro/skyflake](https://github.com/astro/skyflake) (244 Nix) - Skyflake is a NixOS-based hyperconverged infrastructure solution that uses HashiCorp Nomad to manage dynamic virtual machines, enabling GitOps-style deployments and cluster management.
+- [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) (317 Jinja) - Ansible-Nomad is an Ansible role that automates the installation, configuration, and management of HashiCorp Nomad clusters, supporting both development and production environments.
+- [astro/skyflake](https://github.com/astro/skyflake) (241 Nix) - Skyflake is a NixOS-based hyperconverged infrastructure solution that uses HashiCorp Nomad to manage dynamic virtual machines, enabling GitOps-style deployments and cluster management.
 - [bitrockteam/caravan](https://github.com/bitrockteam/caravan) (49 Shell) - Caravan is a modular platform builder based on the HashiCorp stack, providing Terraform modules and projects for deploying and managing cloud infrastructure and applications, including Nomad configuration.
-- [cosmonic-labs/netreap](https://github.com/cosmonic-labs/netreap) (141 Go) - Netreap is a Cilium controller designed to manage Cilium networking and policies within Nomad clusters, providing Kubernetes-independent cluster management and policy synchronization.
+- [cosmonic-labs/netreap](https://github.com/cosmonic-labs/netreap) (142 Go) - Netreap is a Cilium controller designed to manage Cilium networking and policies within Nomad clusters, providing Kubernetes-independent cluster management and policy synchronization.
 - [davidsbond/homad](https://github.com/davidsbond/homad) (46 HCL) - Homad is a comprehensive HashiCorp Nomad homelab configuration repository that automates deployment, management, and upgrades of a high-availability Nomad cluster with integrated Vault, Consul, and various popular services using Terraform and CI workflows.
 - [dsaidgovsg/terraform-modules](https://github.com/dsaidgovsg/terraform-modules) (78 HCL) - A collection of reusable Terraform modules to provision and manage HashiCorp Nomad, Consul, and Vault clusters on AWS, enabling secure and scalable cloud infrastructure deployment.
 - [hyperbadger/nomad-pipeline](https://github.com/hyperbadger/nomad-pipeline) (45 Go) - Nomad Pipeline enables pipeline-style workloads with job dependencies in HashiCorp Nomad, allowing sequential and parallel task execution and advanced workflow orchestration.
-- [jhillyerd/homelab](https://github.com/jhillyerd/homelab) (32 Nix) - A NixOS and Nomad-based configuration project for managing and monitoring a home lab environment with automated telemetry, logging, and workload orchestration.
+- [jhillyerd/homelab](https://github.com/jhillyerd/homelab) (31 Nix) - A NixOS and Nomad-based configuration project for managing and monitoring a home lab environment with automated telemetry, logging, and workload orchestration.
 - [jonasvinther/nomad-gitops-operator](https://github.com/jonasvinther/nomad-gitops-operator) (89 Go) - Nomoporator is a GitOps operator that automates the deployment and synchronization of HashiCorp Nomad jobs using Git repositories or local file systems, supporting secure and flexible configuration.
 - [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad) (58 Go) - mcp-nomad is a Golang-based MCP server that connects to HashiCorp Nomad, providing comprehensive management of Nomad jobs, deployments, nodes, ACLs, and other cluster resources through the Model Context Protocol.
 - [mr-karan/homelab](https://github.com/mr-karan/homelab) (278 HTML) - Hydra is an infrastructure-as-code project for managing a personal home server using HashiCorp Nomad, Consul, and other tools to automate and orchestrate various services.
@@ -100,7 +100,7 @@ Table of Contents:
 
 ## DevOps tools
 
-- [hashicorp/levant](https://github.com/hashicorp/levant) (835 Go) - Levant is an open source templating and deployment tool that provides realtime feedback and detailed failure messages for HashiCorp Nomad job deployments.
+- [hashicorp/levant](https://github.com/hashicorp/levant) (834 Go) - Levant is an open source templating and deployment tool that provides realtime feedback and detailed failure messages for HashiCorp Nomad job deployments.
 - [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) (126 Groovy) - A collection of HashiCorp Nomad job files and deployment scripts designed for continuous delivery and automated multi-environment deployments using Jenkins and Levant.
 - [mr-karan/nomctx](https://github.com/mr-karan/nomctx) (58 Go) - Nomctx is a command-line tool that simplifies and accelerates switching between multiple HashiCorp Nomad clusters and namespaces by managing environment variables and authentication contexts efficiently.
 - [mxab/nacp](https://github.com/mxab/nacp) (51 Go) - NACP is a proxy for the HashiCorp Nomad API that enables policy-driven validation and mutation of job data using Open Policy Agent and webhooks to enforce organizational policies before job submission.
