@@ -5,6 +5,10 @@
 A curated list of awesome HashiCorp Nomad and HashiCorp Nomad-related software.
 
 
+Read it as a website at [awesome-nomad.korchasa.dev](https://awesome-nomad.korchasa.dev/):
+every project has a page of its own, the weekly issues are archived, and
+[search](https://awesome-nomad.korchasa.dev/search/) looks through the whole list at once.
+
 Table of Contents:
 - [Documentation, examples, demos, and awesome lists](#documentation,-examples,-demos,-and-awesome-lists) (3)
 - [Demo and Learning Resources](#demo-and-learning-resources) (5)
