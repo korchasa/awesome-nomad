@@ -29,7 +29,7 @@ Table of Contents:
 ## Documentation, examples, demos, and awesome lists
 
 - [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) (67 Go) - Envoy-consul-sds is a service that implements Envoy's Service Discovery Service API on top of Consul's health endpoint API to enable dynamic service discovery and proxying for applications running on HashiCorp Nomad.
-- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (921 ) - A curated list of tools, plugins, utilities, and resources for enhancing and managing HashiCorp Nomad deployments and workflows.
+- [jippi/awesome-nomad](https://github.com/jippi/awesome-nomad) (922 ) - A curated list of tools, plugins, utilities, and resources for enhancing and managing HashiCorp Nomad deployments and workflows.
 - [thangchung/coffeeshop-modular](https://github.com/thangchung/coffeeshop-modular) (51 C#) - .NET coffee shop application with a modular architecture, containerized and deployable using HashiCorp Nomad.
 
 ## Demo and Learning Resources
@@ -38,14 +38,14 @@ Table of Contents:
 - [nairnavin/practical-nomad-consul](https://github.com/nairnavin/practical-nomad-consul) (61 HCL) - A practical tutorial and guide for deploying a realistic multi-tier Spring Boot Petclinic application using HashiCorp Nomad and Consul with service mesh, ingress and terminating gateways, load balancing, and secure communication.
 - [star3am/hashiqube](https://github.com/star3am/hashiqube) (138 JavaScript) - HashiQube is an all-in-one hands-on DevOps lab that runs all HashiCorp products including Nomad, providing a versatile environment for learning, practicing, and demonstrating infrastructure and security tools in cloud or local setups.
 - [thangchung/coffeeshop-on-nomad](https://github.com/thangchung/coffeeshop-on-nomad) (116 C#) - A .NET microservices coffeeshop application deployed and orchestrated on HashiCorp Nomad with Consul Connect for service mesh and Docker containers.
-- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) (4363 Go) - go-coffeeshop is an event-driven microservices demo application built with Golang, deployed using HashiCorp Nomad, Consul Connect, Vault, and Terraform, demonstrating modern microservices architecture and deployment practices.
+- [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) (4362 Go) - go-coffeeshop is an event-driven microservices demo application built with Golang, deployed using HashiCorp Nomad, Consul Connect, Vault, and Terraform, demonstrating modern microservices architecture and deployment practices.
 
 ## Infrastructure setup
 
 ### Automation and Infrastructure Management
 
 - [ansible-community/ansible-nomad](https://github.com/ansible-community/ansible-nomad) (316 Jinja) - Ansible-Nomad is an Ansible role that automates the installation, configuration, and management of HashiCorp Nomad clusters, supporting both development and production environments.
-- [astro/skyflake](https://github.com/astro/skyflake) (243 Nix) - Skyflake is a NixOS-based hyperconverged infrastructure solution that uses HashiCorp Nomad to manage dynamic virtual machines, enabling GitOps-style deployments and cluster management.
+- [astro/skyflake](https://github.com/astro/skyflake) (244 Nix) - Skyflake is a NixOS-based hyperconverged infrastructure solution that uses HashiCorp Nomad to manage dynamic virtual machines, enabling GitOps-style deployments and cluster management.
 - [bitrockteam/caravan](https://github.com/bitrockteam/caravan) (49 Shell) - Caravan is a modular platform builder based on the HashiCorp stack, providing Terraform modules and projects for deploying and managing cloud infrastructure and applications, including Nomad configuration.
 - [cosmonic-labs/netreap](https://github.com/cosmonic-labs/netreap) (142 Go) - Netreap is a Cilium controller designed to manage Cilium networking and policies within Nomad clusters, providing Kubernetes-independent cluster management and policy synchronization.
 - [davidsbond/homad](https://github.com/davidsbond/homad) (46 HCL) - Homad is a comprehensive HashiCorp Nomad homelab configuration repository that automates deployment, management, and upgrades of a high-availability Nomad cluster with integrated Vault, Consul, and various popular services using Terraform and CI workflows.
@@ -68,7 +68,7 @@ Table of Contents:
 - [eschudt/hashistack-digitalocean](https://github.com/eschudt/hashistack-digitalocean) (46 HCL) - Terraform project to deploy and manage a secure HashiCorp stack including Nomad, Consul, and Vault clusters on DigitalOcean with automated setup and network security.
 - [internetarchive/hind](https://github.com/internetarchive/hind) (70 Shell) - HinD is a single-container mini cluster combining Nomad, Consul, and Caddyserver to orchestrate containerized workloads with dynamic reverse proxy and automatic HTTPS in a Podman environment.
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) (695 Go) - hashi-up is a lightweight utility that automates the installation and clustering of HashiCorp Consul, Nomad, or Vault on remote Linux hosts over SSH in under one minute.
-- [kencx/homelab](https://github.com/kencx/homelab) (231 YAML) - kencx/homelab is an infrastructure-as-code project for automated deployment and management of a HashiCorp Nomad, Consul, and Vault cluster on Proxmox using Packer, Terraform, and Ansible.
+- [kencx/homelab](https://github.com/kencx/homelab) (232 YAML) - kencx/homelab is an infrastructure-as-code project for automated deployment and management of a HashiCorp Nomad, Consul, and Vault cluster on Proxmox using Packer, Terraform, and Ansible.
 - [multani/docker-nomad](https://github.com/multani/docker-nomad) (102 Shell) - This project provides a Docker image to run the HashiCorp Nomad scheduler in containerized environments, facilitating easy deployment and testing of Nomad clusters using Docker.
 - [picatz/terraform-google-nomad](https://github.com/picatz/terraform-google-nomad) (78 HCL) - Terraform module for deploying and managing secure Nomad clusters with Consul service mesh on Google Cloud Platform.
 - [zerodha/nomad-cluster-setup](https://github.com/zerodha/nomad-cluster-setup) (169 HCL) - Terraform modules and Packer scripts to deploy and manage scalable HashiCorp Nomad clusters on AWS using Auto Scaling Groups, custom AMIs, and optional load balancing.
@@ -99,8 +99,8 @@ Table of Contents:
 
 - [cvandal/nomad-ui](https://github.com/cvandal/nomad-ui) (32 JavaScript) - Nomad UI is a cross-platform user interface built with .NET Core and React for managing HashiCorp Nomad clusters, now discontinued after Nomad 0.7 introduced its own built-in UI.
 - [FRosner/cluster-broccoli](https://github.com/FRosner/cluster-broccoli) (60 Scala) - Cluster Broccoli is a self-service web service and UI for managing HashiCorp Nomad jobs through customizable templates and a RESTful API.
-- [hashicorp/damon](https://github.com/hashicorp/damon) (489 Go) - Damon is a terminal user interface (TUI) that provides an interactive dashboard for managing and monitoring HashiCorp Nomad resources such as Jobs, Deployments, and Allocations.
-- [robinovitch61/wander](https://github.com/robinovitch61/wander) (483 Go) - Wander is a terminal-based TUI application for efficiently managing and monitoring HashiCorp Nomad clusters with features like live log tailing, event monitoring, and administrative controls.
+- [hashicorp/damon](https://github.com/hashicorp/damon) (491 Go) - Damon is a terminal user interface (TUI) that provides an interactive dashboard for managing and monitoring HashiCorp Nomad resources such as Jobs, Deployments, and Allocations.
+- [robinovitch61/wander](https://github.com/robinovitch61/wander) (482 Go) - Wander is a terminal-based TUI application for efficiently managing and monitoring HashiCorp Nomad clusters with features like live log tailing, event monitoring, and administrative controls.
 
 ## DevOps tools
 
@@ -112,11 +112,11 @@ Table of Contents:
 ## Integrations
 
 - [fwkz/dill](https://github.com/fwkz/dill) (44 Go) - fwkz/dill is a cloud-ready L4 TCP proxy with dynamic listener support, enabling seamless load balancing and routing of dynamic backends, including integration with HashiCorp Nomad for service discovery.
-- [sablierapp/sablier](https://github.com/sablierapp/sablier) (3097 Go) - Sablier starts Docker, Kubernetes, Podman, Proxmox LXC, systemd, Nomad and AWS ECS workloads on demand and stops them after a period of inactivity, showing a waiting page via a reverse proxy.
+- [sablierapp/sablier](https://github.com/sablierapp/sablier) (3119 Go) - Sablier starts Docker, Kubernetes, Podman, Proxmox LXC, systemd, Nomad and AWS ECS workloads on demand and stops them after a period of inactivity, showing a waiting page via a reverse proxy.
 
 ## Plugins
 
-- [cneira/firecracker-task-driver](https://github.com/cneira/firecracker-task-driver) (185 Go) - A Nomad task driver that enables the creation and management of Firecracker micro-virtual machines within the Nomad orchestration platform.
+- [cneira/firecracker-task-driver](https://github.com/cneira/firecracker-task-driver) (186 Go) - A Nomad task driver that enables the creation and management of Firecracker micro-virtual machines within the Nomad orchestration platform.
 - [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) (43 Go) - A HashiCorp Nomad task driver plugin that enables running tasks inside FreeBSD jails, providing native containerization and resource control for FreeBSD environments.
 - [dokku/dokku-scheduler-nomad](https://github.com/dokku/dokku-scheduler-nomad) (33 Shell) - dokku-scheduler-nomad is a Dokku plugin that integrates Nomad as a scheduler for deploying applications within a Nomad cluster environment.
 - [hashicorp/nomad-driver-podman](https://github.com/hashicorp/nomad-driver-podman) (27 Go) - A Nomad task driver plugin that enables sandboxing and management of workloads in Podman containers with advanced resource and network configuration features.
